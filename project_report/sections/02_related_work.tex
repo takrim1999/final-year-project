@@ -1,0 +1,10 @@
+\chapter{Related Work}
+\section{Fundus Image Classification}
+CNNs such as VGG, ResNet, and EfficientNet have been widely applied to fundus image analysis for diabetic retinopathy screening and broader ocular disease classification. EfficientNet family models leverage compound scaling and strong ImageNet pretraining for competitive performance at modest compute cost \cite{tan2019efficientnet}.
+
+\section{Attention Mechanisms}
+Channel and spatial attention mechanisms (SE, CBAM, ECA) improve CNN feature quality by adaptively reweighting salient signals. CBAM applies sequential channel and spatial attention via lightweight modules with minimal overhead \cite{woo2018cbam}. For accessible primers on CBAM and related attention modules, see \cite{cbamMedium, cbamDO}. Vision transformers (ViT) and token\textendash based self\textendash attention have also shown promise, but often require larger datasets or heavy augmentation.
+
+\section{ODIR\textendash 5K and Labeling}
+The ODIR dataset provides paired left/right fundus images and metadata. Practical pipelines must reconcile free\textendash text diagnoses to structured labels and contend with multi\textendash label prevalence and class imbalance. Prior work also explored generative augmentation for minority classes.
+

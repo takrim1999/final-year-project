@@ -1,0 +1,12 @@
+\chapter{Methodology}
+\section{Baselines and Architecture}
+\textbf{EfficientNet Baseline:} ImageNet\textendash pretrained EfficientNetB0 (optionally B3) with a light classification head: BN $\rightarrow$ Conv1x1 (192) $\rightarrow$ GAP $\rightarrow$ Dropout(0.4) $\rightarrow$ Dense(192, ReLU) $\rightarrow$ Dropout(0.4) $\rightarrow$ Softmax.
+
+\textbf{EfficientNet + CBAM:} Same backbone and head, with a CBAM block applied on the convolutional feature map to apply channel and spatial attention.
+
+\section{Training}
+Optimizer: Adam (lr $3\times10^{-4}$), batch size 16, warm\textendash up forward pass, callbacks: ModelCheckpoint (best val acc), ReduceLROnPlateau, EarlyStopping. Mixed precision is enabled for memory efficiency.
+
+\section{Evaluation}
+We report accuracy, macro/weighted F1, ROC\textendash AUC (macro one\textendash vs\textendash rest), PR\textendash AUC (macro), and confusion matrices. Curves (training/validation for accuracy, loss, ROC\textendash AUC, PR\textendash AUC) and per\textendash class ROC/PR curves are exported.
+

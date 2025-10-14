@@ -1,0 +1,12 @@
+\chapter{Introduction}
+Retinal fundus photography provides a non\textendash invasive window into ocular health, enabling screening and diagnosis for conditions such as Glaucoma (G), Cataract (C), Age\textendash related Macular Degeneration (AMD, A), Hypertension\textendash related retinopathy (H), and Myopia (M). Automated classification can assist clinicians by prioritizing high\textendash risk cases and scaling screening programs.
+
+Deep convolutional networks (CNNs) learn strong visual features but can struggle with class imbalance, domain variability, and subtle disease cues. Attention mechanisms explicitly reweight feature channels and spatial regions, potentially improving discrimination on small or ambiguous lesions. In this project we evaluate an EfficientNet baseline and an EfficientNet+CBAM variant on ODIR\textendash 5K, following a robust data parsing and splitting procedure, and report comprehensive metrics and plots to support a fair comparison.
+
+\section{Contributions}
+\begin{itemize}
+  \item A practical ODIR\textendash 5K pipeline with robust parsing and Hypertension\textendash priority labeling to mitigate label sparsity in validation/test.
+  \item An attention\textendash enhanced classifier (EfficientNet+CBAM) compared against a matched EfficientNet baseline under identical preprocessing, augmentation, and training schedules.
+  \item Thorough evaluation artifacts (training curves, confusion matrices, ROC/PR curves, macro/weighted F1, ROC\textendash AUC and PR\textendash AUC) prepared for report integration.
+\end{itemize}
+

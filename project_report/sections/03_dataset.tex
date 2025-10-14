@@ -1,0 +1,10 @@
+\chapter{Dataset}\label{sec:dataset}
+\section{ODIR\textendash 5K Overview}
+We use ODIR\textendash 5K (Kaggle) \cite{odir5k} containing fundus images with metadata. Our study focuses on five target classes: Glaucoma (G), Cataract (C), AMD (A), Hypertension (H), and Myopia (M).
+
+\section{Label Parsing and Hypertension Priority}
+Free\textendash text diagnoses are mapped to short codes using keyword matching (e.g., ``hypertensive retinopathy'', ``hypertensive'', ``htn'' $\rightarrow$ H). If Hypertension appears among multiple diagnoses for an eye, we assign the final label as H, otherwise select the first class by a fixed order (G, C, A, H, M). Missing or out\textendash of\textendash scope labels are discarded.
+
+\section{Splits and Preprocessing}
+We ensure stratified splits (train/val/test) with all target classes represented in validation and test via repeated StratifiedShuffleSplit attempts. Images are resized to $224\times224$, normalized using EfficientNet preprocessing, and augmented (random flip, small rotation, zoom, and contrast) during training.
+

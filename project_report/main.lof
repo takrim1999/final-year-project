@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Training dynamics: accuracy (top) and loss (bottom) for EfficientNet baseline (left) and EfficientNet+CBAM (right).}}{8}{figure.caption.6}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces AUC metrics: ROC\textendash AUC (top) and PR\textendash AUC (bottom) for baseline (left) and CBAM (right).}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Per\textendash class ROC (top) and PR (bottom) curves for baseline (left) vs. CBAM (right).}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Confusion matrices (counts) on the held\textendash out test set for baseline (left) and CBAM (right).}}{10}{figure.caption.9}%
+\addvspace {10\p@ }

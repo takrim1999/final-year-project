@@ -1,0 +1,52 @@
+\chapter{Results and Discussion}\label{sec:results}
+\section{Quantitative Comparison}
+We compare EfficientNet (no attention) against EfficientNet+CBAM on identical splits. Metrics include accuracy, macro/weighted F1, ROC\textendash AUC (macro OvR), and PR\textendash AUC (macro). Attention improves several classes, while Hypertension remains challenging due to limited single\textendash label prevalence. Class weighting or multi\textendash label learning may further improve H.
+
+As shown in Figure~\ref{fig:train_curves}, both variants converge smoothly; the CBAM model trends to higher validation accuracy and lower loss. Figure~\ref{fig:auc_curves} summarizes ROC\textendash AUC and PR\textendash AUC trajectories, indicating consistent gains with attention. Per\textendash class ROC/PR curves in Figure~\ref{fig:perclass_curves} highlight stronger separability for several classes under CBAM.
+
+\section{Confusion Matrices}
+We include count\textendash based confusion matrices with full class names. Notable confusions often occur between AMD and Myopia, and Hypertension with other vascular signs.
+
+Figure~\ref{fig:cms} visualizes the test\textendash set confusion matrices for both models.
+
+\section{Curves}\label{sec:results_figs}
+Training/validation curves (accuracy, loss, ROC\textendash AUC, PR\textendash AUC) and per\textendash class ROC/PR curves are provided to illustrate convergence behavior and separability across classes.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_baseline_acc.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_cbam_acc.png}\\
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_baseline_loss.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_cbam_loss.png}
+  \caption{Training dynamics: accuracy (top) and loss (bottom) for EfficientNet baseline (left) and EfficientNet+CBAM (right).}
+  \label{fig:train_curves}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_baseline_auc.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_cbam_auc.png}\\
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_baseline_prc.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/effnet_cbam_prc.png}
+  \caption{AUC metrics: ROC\textendash AUC (top) and PR\textendash AUC (bottom) for baseline (left) and CBAM (right).}
+  \label{fig:auc_curves}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/roc_curves_effnet_baseline.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/roc_curves_effnet_cbam.png}\\
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/pr_curves_effnet_baseline.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/pr_curves_effnet_cbam.png}
+  \caption{Per\textendash class ROC (top) and PR (bottom) curves for baseline (left) vs. CBAM (right).}
+  \label{fig:perclass_curves}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/cm_effnet_baseline_counts.png}
+  \includegraphics[width=0.48\textwidth]{../new_work/figures/cm_effnet_cbam_counts.png}
+  \caption{Confusion matrices (counts) on the held\textendash out test set for baseline (left) and CBAM (right).}
+  \label{fig:cms}
+\end{figure}
+

@@ -1,0 +1,12 @@
+\chapter{Experimental Setup}
+\section{Environment}
+Experiments run on Kaggle GPU runtimes with TensorFlow/Keras, using mixed precision. A Tesla P100 GPU was used; the training completed in approximately 684.4 seconds. Outputs (plots, confusion matrices, CSVs, and best models) are saved in the session working directory.
+
+\section{Hyperparameters}
+Batch size 16, epochs up to 40 with early stopping, Adam lr $3\times10^{-4}$, augmentation as in Section~\ref{sec:dataset}. The same schedule is applied to both baseline and CBAM variants.
+
+\section{Artifacts}
+For each model we export: training curves (accuracy, loss, ROC\textendash AUC, PR\textendash AUC), confusion matrices (counts and CSV), classification reports, ROC/PR curves per class, and a metrics summary table to compare variants.
+
+\paragraph{Reproducibility.} The training and evaluation flow is provided in a Kaggle notebook \cite{takrimNotebook}, which produced the figures integrated in Section~\ref{sec:results_figs}.
+

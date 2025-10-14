@@ -1,0 +1,105 @@
+% Main LaTeX file for the thesis/project report
+\documentclass[12pt,a4paper]{report}
+
+% Encoding and language
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+
+% Page and typography
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{microtype}
+
+% Figures, tables, colors
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+
+% Math
+\usepackage{amsmath, amssymb, amsfonts}
+
+% Hyperlinks
+\usepackage[hidelinks]{hyperref}
+
+% Bibliography
+\usepackage[numbers,sort&compress]{natbib}
+
+% If available, allow including webp logos; otherwise fall back to png/pdf
+% (README explains conversion if needed)
+\newcommand{\unilogo}{project_report/logo/ru_logo}
+
+% Title data
+\newcommand{\reporttitle}{Benchmarking Attention for Ocular Disease Classification: EfficientNet vs CBAM on ODIR\textendash 5K}
+\newcommand{\supervisor}{Dr. Md. Matiqul Islam}
+\newcommand{\authors}{Md. Takrim\textendash Ul\textendash Alam\\ Samiul Bashir}
+\newcommand{\department}{Department of Information and Communication Engineering}
+\newcommand{\university}{University of Rajshahi}
+\newcommand{\reportdate}{\today}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+  \centering
+  % Try webp, then png, then pdf
+  \IfFileExists{\unilogo.webp}{\includegraphics[width=0.25\textwidth]{\unilogo.webp}\\[1em]}{%
+  \IfFileExists{\unilogo.png}{\includegraphics[width=0.25\textwidth]{\unilogo.png}\\[1em]}{%
+  \IfFileExists{\unilogo.pdf}{\includegraphics[width=0.25\textwidth]{\unilogo.pdf}\\[1em]}{}}}
+  {\LARGE \university\\[0.3em] \department\par}
+  \vspace{2cm}
+  {\huge\bfseries \reporttitle\par}
+  \vspace{1.5cm}
+  {\Large \textbf{Supervisor:} \supervisor\par}
+  \vspace{0.8cm}
+  {\Large \textbf{Authors:}\\ \authors\par}
+  \vfill
+  {\Large \reportdate\par}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+\listoftables
+\clearpage
+
+\pagenumbering{arabic}
+
+% Abstract
+\input{sections/abstract}
+
+% NOTE: The main topic names below should be aligned to the prior year's Table of Contents.
+% Replace the section headings if your department requires exact titles.
+
+% 1. Introduction
+\input{sections/01_introduction}
+% 2. Related Work
+\input{sections/02_related_work}
+% 3. Dataset
+\input{sections/03_dataset}
+% 4. Methodology
+\input{sections/04_methodology}
+% 5. Experimental Setup
+\input{sections/05_experiments}
+% 6. Results and Discussion
+\input{sections/06_results}
+% 7. Conclusion and Future Work
+\input{sections/07_conclusion}
+
+% Acknowledgements (optional)
+\input{sections/acknowledgements}
+
+% References
+\clearpage
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}
+
+
