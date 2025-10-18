@@ -8,3 +8,5 @@ Free\textendash text diagnoses are mapped to short codes using keyword matching 
 \section{Splits and Preprocessing}
 We ensure stratified splits (train/val/test) with all target classes represented in validation and test via repeated StratifiedShuffleSplit attempts. Images are resized to $224\times224$, normalized using EfficientNet preprocessing, and augmented (random flip, small rotation, zoom, and contrast) during training.
 
+\paragraph{Class Notes.} Diagnoses are free\textendash text; we map keywords to target codes. When multiple target labels appear, we assign Hypertension (H) precedence to strengthen its evaluation presence, then fallback to the first occurring target in a fixed order (G, C, A, H, M). This yields a single\textendash label 5\textendash class subset representative of the ODIR distribution and facilitates clear percent confusion analysis.
+

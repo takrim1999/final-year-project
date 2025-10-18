@@ -9,17 +9,26 @@
 \contentsline {section}{\numberline {3.1}ODIR\textendash 5K Overview}{4}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Label Parsing and Hypertension Priority}{4}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Splits and Preprocessing}{4}{section.3.3}%
+\contentsline {paragraph}{Class Notes.}{4}{section*.5}%
 \contentsline {chapter}{\numberline {4}Methodology}{5}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Baselines and Architecture}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Training}{5}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Evaluation}{5}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Experimental Setup}{6}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Environment}{6}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Hyperparameters}{6}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Artifacts}{6}{section.5.3}%
-\contentsline {paragraph}{Reproducibility.}{6}{section*.5}%
-\contentsline {chapter}{\numberline {6}Results and Discussion}{7}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Quantitative Comparison}{7}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Confusion Matrices}{7}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Curves}{7}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{11}{chapter.7}%
+\contentsline {subsection}{\numberline {4.1.1}CBAM Details}{5}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Training}{6}{section.4.2}%
+\contentsline {paragraph}{Loss and Metrics.}{6}{section*.9}%
+\contentsline {section}{\numberline {4.3}Evaluation}{7}{section.4.3}%
+\contentsline {paragraph}{CBAM Primer.}{7}{section*.10}%
+\contentsline {paragraph}{Implementation Notes.}{7}{section*.11}%
+\contentsline {chapter}{\numberline {5}Experimental Setup}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Environment}{8}{section.5.1}%
+\contentsline {paragraph}{Model sizes.}{8}{section*.12}%
+\contentsline {section}{\numberline {5.2}Protocols and Reproducibility}{8}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Hyperparameters}{8}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Artifacts}{9}{section.5.4}%
+\contentsline {paragraph}{Reproducibility.}{9}{section*.13}%
+\contentsline {chapter}{\numberline {6}Results and Discussion}{10}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Quantitative Comparison}{10}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Confusion Matrices}{10}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Curves}{10}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Attention Visualization and Class Evidence}{10}{section.6.4}%
+\contentsline {paragraph}{Discussion.}{11}{section*.20}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{15}{chapter.7}%

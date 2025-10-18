@@ -3,10 +3,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Base attention idea: an attention map refines intermediate feature maps to emphasize informative content and suppress background, improving downstream classification. Adapted for context from primers \cite {cbamMedium}.}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CBAM module: sequential channel and spatial attention with shared MLP for channel pooling (Avg/Max) and a $7\times 7$ conv for spatial pooling. See \cite {woo2018cbam,cbamMedium,cbamDO}.}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Our architecture: EfficientNet backbone with a CBAM attention block over feature maps, followed by a lightweight classification head.}}{7}{figure.caption.8}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Training dynamics: accuracy (top) and loss (bottom) for EfficientNet baseline (left) and EfficientNet+CBAM (right).}}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces AUC metrics: ROC\textendash AUC (top) and PR\textendash AUC (bottom) for baseline (left) and CBAM (right).}}{9}{figure.caption.7}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Per\textendash class ROC (top) and PR (bottom) curves for baseline (left) vs. CBAM (right).}}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Confusion matrices (counts) on the held\textendash out test set for baseline (left) and CBAM (right).}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Training dynamics: accuracy (top) and loss (bottom) for EfficientNet baseline (left) and EfficientNet+CBAM (right).}}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces AUC metrics: ROC\textendash AUC (top) and PR\textendash AUC (bottom) for baseline (left) and CBAM (right).}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Per\textendash class ROC (top) and PR (bottom) curves for baseline (left) vs. CBAM (right).}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Confusion matrices (row\textendash normalized percentages) on the held\textendash out test set for baseline (left) and CBAM (right).}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Per\textendash class benchmarking panel: for each class (left to right: Glaucoma, Cataract, AMD, Hypertension, Myopia), we show Input, EffNet Grad\textendash CAM, and EffNet+CBAM Grad\textendash CAM, with class probabilities.}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Per\textendash class examples with explicit class names. Each column shows, from top to bottom: Input, EffNet Grad\textendash CAM (with P), and EffNet+CBAM Grad\textendash CAM (with P).}}{14}{figure.caption.19}%
 \addvspace {10\p@ }

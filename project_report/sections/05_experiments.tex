@@ -1,6 +1,11 @@
 \chapter{Experimental Setup}
 \section{Environment}
-Experiments run on Kaggle GPU runtimes with TensorFlow/Keras, using mixed precision. A Tesla P100 GPU was used; the training completed in approximately 684.4 seconds. Outputs (plots, confusion matrices, CSVs, and best models) are saved in the session working directory.
+Experiments run on Kaggle GPU runtimes with TensorFlow/Keras, using mixed precision. A Tesla P100 GPU was used; the end-to-end training and report-generation pass completed in approximately 846.8 seconds. Outputs (plots, confusion matrices, CSVs, and best models) are saved in the session working directory.
+
+\paragraph{Model sizes.} Best EfficientNet baseline checkpoint: 87.26 MB. Best EfficientNet+CBAM checkpoint: 91.40 MB. The CBAM module adds a small memory overhead while improving attention quality and per-class separability.
+
+\section{Protocols and Reproducibility}
+We fix random seeds and use stratified splits that ensure all 5 classes appear in validation and test. Preprocessing follows EfficientNet conventions; augmentation includes flips, small rotations, zoom, and contrast. We monitor validation accuracy with early stopping and learning rate reduction. All figures in this paper (training curves, percent confusion matrices, and Grad\textendash CAM panels) are exported by the notebook \cite{takrimNotebook} to support full reproducibility.
 
 \section{Hyperparameters}
 Batch size 16, epochs up to 40 with early stopping, Adam lr $3\times10^{-4}$, augmentation as in Section~\ref{sec:dataset}. The same schedule is applied to both baseline and CBAM variants.

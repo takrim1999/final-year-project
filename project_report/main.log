@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.9.3)  15 OCT 2025 01:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.9.3)  18 OCT 2025 07:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,7 +467,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count311
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 46
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -481,24 +481,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -534,20 +534,20 @@ LaTeX Font Info:    ... okay on input line 46.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 46.
-Package microtype Info: Applying patch `item' on input line 46.
-Package microtype Info: Applying patch `toc' on input line 46.
-Package microtype Info: Applying patch `eqnum' on input line 46.
-Package microtype Info: Applying patch `footnote' on input line 46.
-Package microtype Info: Applying patch `verbatim' on input line 46.
-LaTeX Info: Redefining \microtypesetup on input line 46.
+LaTeX Info: Redefining \microtypecontext on input line 47.
+Package microtype Info: Applying patch `item' on input line 47.
+Package microtype Info: Applying patch `toc' on input line 47.
+Package microtype Info: Applying patch `eqnum' on input line 47.
+Package microtype Info: Applying patch `footnote' on input line 47.
+Package microtype Info: Applying patch `verbatim' on input line 47.
+LaTeX Info: Redefining \microtypesetup on input line 47.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 46.
+LaTeX Info: Redefining \showhyphens on input line 47.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -588,7 +588,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 47.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -660,7 +660,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 [2
 
-] (./main.lot)
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-mathsy.enc}] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -700,70 +701,109 @@ Chapter 3.
 
 [4
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-rm.enc}]
+]
 Chapter 4.
-) (./sections/05_experiments.tex
+<../new_work/figures/about-cbam/base-attention-model.png, id=223, 830.10126pt x
+ 336.25626pt>
+File: ../new_work/figures/about-cbam/base-attention-model.png Graphic file (typ
+e png)
+<use ../new_work/figures/about-cbam/base-attention-model.png>
+Package pdftex.def Info: ../new_work/figures/about-cbam/base-attention-model.pn
+g  used on input line 10.
+(pdftex.def)             Requested size: 407.66833pt x 165.13643pt.
+<../new_work/figures/about-cbam/cbam-architecture.png, id=229, 808.01875pt x 26
+4.99pt>
+File: ../new_work/figures/about-cbam/cbam-architecture.png Graphic file (type p
+ng)
+<use ../new_work/figures/about-cbam/cbam-architecture.png>
+Package pdftex.def Info: ../new_work/figures/about-cbam/cbam-architecture.png  
+used on input line 26.
+(pdftex.def)             Requested size: 430.31812pt x 141.12332pt.
+<../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architecture.p
+ng, id=234, 2055.68pt x 513.92pt>
+File: ../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architect
+ure.png Graphic file (type png)
+<use ../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architectu
+re.png>
+Package pdftex.def Info: ../new_work/figures/about-cbam/EfficientNet-placement-
+with-CBAM-architecture.png  used on input line 34.
+(pdftex.def)             Requested size: 407.66833pt x 101.91173pt.
+
 
 [5
 
-]
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+
+[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc} <../new_work/figures/abou
+t-cbam/base-attention-model.png (PNG copy)> <../new_work/figures/about-cbam/cba
+m-architecture.png (PNG copy)>]) (./sections/05_experiments.tex
+
+[7 <../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architectur
+e.png (PNG copy)>]
 Chapter 5.
-) (./sections/06_results.tex
 
-[6
+Overfull \hbox (1.26247pt too wide) in paragraph at lines 5--6
+ []\T1/lmr/bx/n/12 (-20) Model sizes.[] \T1/lmr/m/n/12 (-20) Best Ef-fi-cient-N
+et base-line check-point: 87.26 MB. Best Ef-fi-cient-Net+CBAM
+ []
 
-]
+
+
+[8
+
+]) (./sections/06_results.tex
+
+[9]
 Chapter 6.
-<../new_work/figures/effnet_baseline_acc.png, id=204, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_baseline_acc.png, id=282, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_acc.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_acc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_acc.png  used on i
 nput line 17.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_acc.png, id=206, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_acc.png, id=284, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_acc.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_acc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_acc.png  used on input
  line 18.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_baseline_loss.png, id=207, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_baseline_loss.png, id=285, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_loss.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_loss.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_loss.png  used on 
 input line 19.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_loss.png, id=208, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_loss.png, id=286, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_loss.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_loss.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_loss.png  used on inpu
 t line 20.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_baseline_auc.png, id=209, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_baseline_auc.png, id=287, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_auc.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_auc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_auc.png  used on i
 nput line 27.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_auc.png, id=210, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_auc.png, id=288, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_auc.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_auc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_auc.png  used on input
  line 28.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_baseline_prc.png, id=211, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_baseline_prc.png, id=289, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_prc.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_prc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_prc.png  used on i
 nput line 29.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_prc.png, id=212, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_prc.png, id=290, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_prc.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_prc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_prc.png  used on input
  line 30.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/roc_curves_effnet_baseline.png, id=213, 505.89pt x 433.62p
+<../new_work/figures/roc_curves_effnet_baseline.png, id=291, 505.89pt x 433.62p
 t>
 File: ../new_work/figures/roc_curves_effnet_baseline.png Graphic file (type png
 )
@@ -771,13 +811,13 @@ File: ../new_work/figures/roc_curves_effnet_baseline.png Graphic file (type png
 Package pdftex.def Info: ../new_work/figures/roc_curves_effnet_baseline.png  us
 ed on input line 37.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/roc_curves_effnet_cbam.png, id=214, 505.89pt x 433.62pt>
+<../new_work/figures/roc_curves_effnet_cbam.png, id=292, 505.89pt x 433.62pt>
 File: ../new_work/figures/roc_curves_effnet_cbam.png Graphic file (type png)
 <use ../new_work/figures/roc_curves_effnet_cbam.png>
 Package pdftex.def Info: ../new_work/figures/roc_curves_effnet_cbam.png  used o
 n input line 38.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/pr_curves_effnet_baseline.png, id=215, 505.89pt x 433.62pt
+<../new_work/figures/pr_curves_effnet_baseline.png, id=293, 505.89pt x 433.62pt
 >
 File: ../new_work/figures/pr_curves_effnet_baseline.png Graphic file (type png)
 
@@ -785,44 +825,100 @@ File: ../new_work/figures/pr_curves_effnet_baseline.png Graphic file (type png)
 Package pdftex.def Info: ../new_work/figures/pr_curves_effnet_baseline.png  use
 d on input line 39.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/pr_curves_effnet_cbam.png, id=216, 505.89pt x 433.62pt>
+<../new_work/figures/pr_curves_effnet_cbam.png, id=294, 505.89pt x 433.62pt>
 File: ../new_work/figures/pr_curves_effnet_cbam.png Graphic file (type png)
 <use ../new_work/figures/pr_curves_effnet_cbam.png>
 Package pdftex.def Info: ../new_work/figures/pr_curves_effnet_cbam.png  used on
  input line 40.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/cm_effnet_baseline_counts.png, id=217, 505.89pt x 433.62pt
->
-File: ../new_work/figures/cm_effnet_baseline_counts.png Graphic file (type png)
-
-<use ../new_work/figures/cm_effnet_baseline_counts.png>
-Package pdftex.def Info: ../new_work/figures/cm_effnet_baseline_counts.png  use
-d on input line 47.
+<../new_work/figures/cm_effnet_baseline_percent.png, id=295, 505.89pt x 433.62p
+t>
+File: ../new_work/figures/cm_effnet_baseline_percent.png Graphic file (type png
+)
+<use ../new_work/figures/cm_effnet_baseline_percent.png>
+Package pdftex.def Info: ../new_work/figures/cm_effnet_baseline_percent.png  us
+ed on input line 48.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/cm_effnet_cbam_counts.png, id=218, 505.89pt x 433.62pt>
-File: ../new_work/figures/cm_effnet_cbam_counts.png Graphic file (type png)
-<use ../new_work/figures/cm_effnet_cbam_counts.png>
-Package pdftex.def Info: ../new_work/figures/cm_effnet_cbam_counts.png  used on
- input line 48.
+<../new_work/figures/cm_effnet_cbam_percent.png, id=296, 505.89pt x 433.62pt>
+File: ../new_work/figures/cm_effnet_cbam_percent.png Graphic file (type png)
+<use ../new_work/figures/cm_effnet_cbam_percent.png>
+Package pdftex.def Info: ../new_work/figures/cm_effnet_cbam_percent.png  used o
+n input line 49.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-) (./sections/07_conclusion.tex
 
-[7
+
+[10
 
 ]
+<../new_work/figures/gradcam_benchmark_panel.png, id=302, 755.9442pt x 475.5366
+pt>
+File: ../new_work/figures/gradcam_benchmark_panel.png Graphic file (type png)
+<use ../new_work/figures/gradcam_benchmark_panel.png>
+Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_panel.png  used 
+on input line 59.
+(pdftex.def)             Requested size: 443.9066pt x 279.24355pt.
+<../new_work/figures/gradcam_benchmark_Glaucoma.png, id=303, 162.6075pt x 475.5
+366pt>
+File: ../new_work/figures/gradcam_benchmark_Glaucoma.png Graphic file (type png
+)
+<use ../new_work/figures/gradcam_benchmark_Glaucoma.png>
+Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Glaucoma.png  us
+ed on input line 69.
+(pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
+<../new_work/figures/gradcam_benchmark_Cataract.png, id=304, 162.6075pt x 475.5
+366pt>
+File: ../new_work/figures/gradcam_benchmark_Cataract.png Graphic file (type png
+)
+<use ../new_work/figures/gradcam_benchmark_Cataract.png>
+Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Cataract.png  us
+ed on input line 70.
+(pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
+<../new_work/figures/gradcam_benchmark_AMD.png, id=305, 162.6075pt x 475.5366pt
+>
+File: ../new_work/figures/gradcam_benchmark_AMD.png Graphic file (type png)
+<use ../new_work/figures/gradcam_benchmark_AMD.png>
+Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_AMD.png  used on
+ input line 71.
+(pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
+<../new_work/figures/gradcam_benchmark_Hypertension.png, id=306, 162.6075pt x 4
+75.5366pt>
+File: ../new_work/figures/gradcam_benchmark_Hypertension.png Graphic file (type
+ png)
+<use ../new_work/figures/gradcam_benchmark_Hypertension.png>
+Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Hypertension.png
+  used on input line 72.
+(pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
+<../new_work/figures/gradcam_benchmark_Myopia.png, id=307, 162.6075pt x 475.536
+6pt>
+File: ../new_work/figures/gradcam_benchmark_Myopia.png Graphic file (type png)
+<use ../new_work/figures/gradcam_benchmark_Myopia.png>
+Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Myopia.png  used
+ on input line 73.
+(pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
 
-[8 <../new_work/figures/effnet_baseline_acc.png> <../new_work/figures/effnet_cb
-am_acc.png> <../new_work/figures/effnet_baseline_loss.png> <../new_work/figures
-/effnet_cbam_loss.png>]
+Overfull \hbox (41.24077pt too wide) in paragraph at lines 67--75
+ [][] 
+ []
 
-[9 <../new_work/figures/effnet_baseline_auc.png> <../new_work/figures/effnet_cb
-am_auc.png> <../new_work/figures/effnet_baseline_prc.png> <../new_work/figures/
-effnet_cbam_prc.png>]
+) (./sections/07_conclusion.tex
 
-[10 <../new_work/figures/roc_curves_effnet_baseline.png> <../new_work/figures/r
+[11 <../new_work/figures/effnet_baseline_acc.png> <../new_work/figures/effnet_c
+bam_acc.png> <../new_work/figures/effnet_baseline_loss.png> <../new_work/figure
+s/effnet_cbam_loss.png>]
+
+[12 <../new_work/figures/effnet_baseline_auc.png> <../new_work/figures/effnet_c
+bam_auc.png> <../new_work/figures/effnet_baseline_prc.png> <../new_work/figures
+/effnet_cbam_prc.png>]
+
+[13 <../new_work/figures/roc_curves_effnet_baseline.png> <../new_work/figures/r
 oc_curves_effnet_cbam.png> <../new_work/figures/pr_curves_effnet_baseline.png> 
 <../new_work/figures/pr_curves_effnet_cbam.png> <../new_work/figures/cm_effnet_
-baseline_counts.png> <../new_work/figures/cm_effnet_cbam_counts.png>]
+baseline_percent.png> <../new_work/figures/cm_effnet_cbam_percent.png>]
+
+[14 <../new_work/figures/gradcam_benchmark_panel.png> <../new_work/figures/grad
+cam_benchmark_Glaucoma.png> <../new_work/figures/gradcam_benchmark_Cataract.png
+> <../new_work/figures/gradcam_benchmark_AMD.png> <../new_work/figures/gradcam_
+benchmark_Hypertension.png> <../new_work/figures/gradcam_benchmark_Myopia.png>]
 Chapter 7.
 
 Overfull \hbox (0.8552pt too wide) in paragraph at lines 2--3
@@ -832,11 +928,11 @@ t-Net base-line and an Ef-fi-cient-Net+CBAM
 
 ) (./sections/acknowledgements.tex)
 
-[11
+[15
 
 ] (./main.bbl
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-3.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+2.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -845,19 +941,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
 []\T1/lmr/m/n/12 (+20) Shreejal Trivedi.  Un-der-stand-ing at-ten-tion mod-ules
 : Cbam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
 \T1/lmr/m/n/12 (+20) and bam ^^V a quick read.  []$\T1/lmtt/m/n/12 https : / / 
 medium . com / visionwizard /
  []
 
 
-Overfull \hbox (2.96547pt too wide) in paragraph at lines 20--25
+Overfull \hbox (2.96547pt too wide) in paragraph at lines 9--14
 \T1/lmtt/m/n/12 understanding-[]attention-[]modules-[]cbam-[]and-[]bam-[]a-[]qu
 ick-[]read-[]ca8678d1c671$[]\T1/lmr/m/n/12 (-20) .
  []
@@ -876,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--45
 
 )
 
-[12
+[16
 
 
 ] (./main.aux)
@@ -885,26 +981,28 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B8C6A09234DF6CB743EAAD108980A49;3219.
+(rerunfilecheck)             Checksum: 787C418AB0F446B0B61D1EF1576E3600;3827.
  ) 
 Here is how much of TeX's memory you used:
- 16378 strings out of 475178
- 266290 string characters out of 5766540
- 701191 words of memory out of 5000000
- 38963 multiletter control sequences out of 15000+600000
- 602721 words of font info for 113 fonts, out of 8000000 for 9000
+ 16551 strings out of 475178
+ 271991 string characters out of 5766540
+ 704350 words of memory out of 5000000
+ 39072 multiletter control sequences out of 15000+600000
+ 616621 words of font info for 138 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,1001b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1001b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mtt12.pfb>
-Output written on main.pdf (16 pages, 537854 bytes).
+pe1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.
+pfb>
+Output written on main.pdf (20 pages, 3191476 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 25343 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 33604 words of extra memory for PDF output out of 35830 (max. 10000000)
 
