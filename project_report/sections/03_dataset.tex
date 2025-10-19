@@ -1,4 +1,5 @@
 \chapter{Dataset}\label{sec:dataset}
+We summarize the ODIR\textendash 5K corpus, our single\textendash label mapping with Hypertension priority, and the robust split/preprocessing pipeline used to guarantee coverage of all classes in validation and test. These steps standardize inputs to the models and enable clear percent confusion analysis.
 \section{ODIR\textendash 5K Overview}
 We use ODIR\textendash 5K (Kaggle) \cite{odir5k} containing fundus images with metadata. Our study focuses on five target classes: Glaucoma (G), Cataract (C), AMD (A), Hypertension (H), and Myopia (M).
 
@@ -7,6 +8,8 @@ Free\textendash text diagnoses are mapped to short codes using keyword matching 
 
 \section{Splits and Preprocessing}
 We ensure stratified splits (train/val/test) with all target classes represented in validation and test via repeated StratifiedShuffleSplit attempts. Images are resized to $224\times224$, normalized using EfficientNet preprocessing, and augmented (random flip, small rotation, zoom, and contrast) during training.
+
+\paragraph{Quality Considerations.} Real\textendash world fundus images exhibit uneven illumination, artifacts (eyelashes, lens dust), and media opacities (notably cataracts) that blur and de\textendash contrast structures \cite{docxRef04,docxRef05}. Our preprocessing and augmentation pipeline aims to improve robustness under these imperfections.
 
 \paragraph{Class Notes.} Diagnoses are free\textendash text; we map keywords to target codes. When multiple target labels appear, we assign Hypertension (H) precedence to strengthen its evaluation presence, then fallback to the first occurring target in a fixed order (G, C, A, H, M). This yields a single\textendash label 5\textendash class subset representative of the ODIR distribution and facilitates clear percent confusion analysis.
 

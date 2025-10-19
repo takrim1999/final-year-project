@@ -1,17 +1,36 @@
 \chapter{Experimental Setup}
+We document the compute environment, training protocol, and hyperparameters shared by both models, alongside exported artifacts that support reproducibility and auditability of results.
 \section{Environment}
 Experiments run on Kaggle GPU runtimes with TensorFlow/Keras, using mixed precision. A Tesla P100 GPU was used; the end-to-end training and report-generation pass completed in approximately 846.8 seconds. Outputs (plots, confusion matrices, CSVs, and best models) are saved in the session working directory.
 
-\paragraph{Model sizes.} Best EfficientNet baseline checkpoint: 87.26 MB. Best EfficientNet+CBAM checkpoint: 91.40 MB. The CBAM module adds a small memory overhead while improving attention quality and per-class separability.
+Using a standard Kaggle environment maximizes reproducibility: any researcher can access an identical software stack (TensorFlow, Keras, cuDNN) and comparable hardware. The Tesla P100 (16GB VRAM, Pascal) offers a robust baseline. The ~14 minute wall time (846.8s) includes data loading, augmentation, multi\textendash epoch training with early stopping, evaluation, and artifact generation, reflecting an efficient pipeline enabled by mixed precision. High\textendash FLOPS ops run in float16 while numerically sensitive parts (final softmax and loss) remain in float32, providing 2\textendash 3x speedups and halving activation memory, which permits a batch size of 16 for high\textendash resolution inputs.
+
+\paragraph{Model sizes.} Best EfficientNet baseline checkpoint: 87.26 MB. Best EfficientNet+CBAM checkpoint: 91.40 MB. The CBAM module adds a small memory overhead while improving attention quality and per\textendash class separability.
+
+Checkpoints are saved in Keras formats (.h5/.keras). The ~4.14 MB increase in the CBAM variant reflects the added channel MLP (two\textendash layer) and a $7\times7$ spatial convolution. This overhead is negligible for storage and inference, yet it yields the performance gains detailed in Section~\ref{sec:results}.
 
 \section{Protocols and Reproducibility}
 We fix random seeds and use stratified splits that ensure all 5 classes appear in validation and test. Preprocessing follows EfficientNet conventions; augmentation includes flips, small rotations, zoom, and contrast. We monitor validation accuracy with early stopping and learning rate reduction. All figures in this paper (training curves, percent confusion matrices, and Grad\textendash CAM panels) are exported by the notebook \cite{takrimNotebook} to support full reproducibility.
 
+We fix global seeds (NumPy, Python \texttt{random}, TensorFlow) to control weight initialization and shuffling, reducing run\textendash to\textendash run variance. Stratified splitting is compulsory on long\textendash tailed data; without it, minority classes (e.g., Hypertension) may vanish from validation/test, corrupting macro F1 and per\textendash class metrics. Preprocessing adheres to EfficientNet input sizing (e.g., $224\times224$ for B0) and normalization. Augmentations (H/V flips, rotations $\pm10^{\circ}$, zoom/contrast $\pm20\%$) are lightweight to encourage learning pathology\textendash relevant features rather than camera artifacts. The linked Kaggle notebook acts as an executable paper, generating all artifacts programmatically for auditability.
+
+\paragraph{Training Protocol Recap.} We use Adam (lr $3\times10^{-4}$), batch size 16, mixed precision, ModelCheckpoint (monitoring val\_acc), ReduceLROnPlateau, and EarlyStopping with best weight restore. Class weights counter imbalance.
+
+ModelCheckpoint selects the best generalizing epoch by validation accuracy. EarlyStopping (e.g., patience=10) halts when validation accuracy stalls, preventing overfitting and wasted compute. ReduceLROnPlateau (e.g., patience=5, factor=0.1) reduces the learning rate after stagnation, enabling finer convergence. Class weights are the inverse frequency of each class in the training split, increasing the loss penalty for rare Hypertension errors relative to common classes.
+
 \section{Hyperparameters}
 Batch size 16, epochs up to 40 with early stopping, Adam lr $3\times10^{-4}$, augmentation as in Section~\ref{sec:dataset}. The same schedule is applied to both baseline and CBAM variants.
+
+Batch size 16 saturated the 16GB P100 VRAM under mixed precision, balancing gradient stability and memory. An epoch cap of 40 provides headroom; EarlyStopping typically triggers between epochs 20\textendash 30 as validation accuracy plateaus. Adam at $3\times10^{-4}$ is a conservative fine\textendash tuning rate that preserves ImageNet priors while adapting to fundus imaging. Crucially, hyperparameters are identical across baseline and CBAM to isolate the architectural change as the only independent variable.
+
+\paragraph{Metrics Justification.} Accuracy, macro/weighted F1, ROC\textendash AUC (macro OvR) and PR\textendash AUC (macro) together provide balanced assessment under long\textendash tailed distributions; PR\textendash AUC emphasizes minority sensitivity by focusing on precision\textendash recall.
+
+Accuracy is skewed toward majority classes and is reported for completeness. Macro F1 averages per\textendash class F1, penalizing failures on minority Hypertension commensurately. Weighted F1 reflects support and often tracks accuracy. Macro ROC\textendash AUC (OvR) evaluates threshold\textendash free discriminability per class, then averages. Macro PR\textendash AUC is especially sensitive to minority performance by ignoring true negatives that otherwise inflate ROC\textendash AUC.
 
 \section{Artifacts}
 For each model we export: training curves (accuracy, loss, ROC\textendash AUC, PR\textendash AUC), confusion matrices (counts and CSV), classification reports, ROC/PR curves per class, and a metrics summary table to compare variants.
 
-\paragraph{Reproducibility.} The training and evaluation flow is provided in a Kaggle notebook \cite{takrimNotebook}, which produced the figures integrated in Section~\ref{sec:results_figs}.
+Training curves reveal optimization dynamics and callback triggers. Confusion matrices (counts and row\textendash normalized percent) expose per\textendash class recall and error modes. Classification reports provide per\textendash class P/R/F1 that feed macro/weighted F1. Per\textendash class ROC/PR curves visualize discriminability beyond single thresholds. A metrics summary CSV aggregates scalars for direct baseline vs CBAM comparison. Best model checkpoints (.h5/.keras) support downstream inference and Grad\textendash CAM generation without retraining.
+
+\paragraph{Reproducibility.} The training and evaluation flow is provided in a Kaggle notebook \cite{takrimNotebook}, which produced all figures integrated in Section~\ref{sec:results}.
 

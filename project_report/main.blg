@@ -3,49 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-Warning--empty year in cbamMedium
-Warning--empty year in cbamDO
-Warning--empty year in odir5k
-Warning--empty year in takrimNotebook
-You've used 6 entries,
+You've used 63 entries,
             2481 wiz_defined-function locations,
-            579 strings with 5462 characters,
-and the built_in function-call counts, 1702 in all, are:
-= -- 137
-> -- 56
-< -- 3
-+ -- 28
-- -- 16
-* -- 86
-:= -- 245
-add.period$ -- 20
-call.type$ -- 6
-change.case$ -- 12
-chr.to.int$ -- 6
-cite$ -- 12
-duplicate$ -- 100
-empty$ -- 201
-format.name$ -- 22
-if$ -- 379
-int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 2
-newline$ -- 40
-num.names$ -- 12
-pop$ -- 88
+            820 strings with 13875 characters,
+and the built_in function-call counts, 15749 in all, are:
+= -- 1409
+> -- 315
+< -- 4
++ -- 259
+- -- 96
+* -- 913
+:= -- 1867
+add.period$ -- 192
+call.type$ -- 63
+change.case$ -- 126
+chr.to.int$ -- 26
+cite$ -- 115
+duplicate$ -- 946
+empty$ -- 2059
+format.name$ -- 109
+if$ -- 3732
+int.to.chr$ -- 38
+int.to.str$ -- 64
+missing$ -- 8
+newline$ -- 326
+num.names$ -- 33
+pop$ -- 816
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 63
 quote$ -- 0
-skip$ -- 55
+skip$ -- 580
 stack$ -- 0
-substring$ -- 14
-swap$ -- 14
+substring$ -- 178
+swap$ -- 179
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 4
-while$ -- 8
+type$ -- 441
+warning$ -- 0
+while$ -- 22
 width$ -- 0
-write$ -- 79
-(There were 4 warnings)
+write$ -- 769

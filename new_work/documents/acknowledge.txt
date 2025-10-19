@@ -1,0 +1,15 @@
+ACKNOWLEDGEMENT
+
+At first, We would like to thank the Almighty Allah for giving me the opportunity to complete this project work successfully.
+
+Foremost, We would like to thank our supervisor, Dr. Dipankar Das, Professor, Department of Information and Communication, University of Rajshahi, who continuously inspired and guided us during our project. We will forever be indebted to Dr. Dipankar Das, Sir, for providing all the necessary help throughout the journey. He has not only supervised us but also provided his advice, guidance, constant encouragement, and kind assistance. The thoughts he has offered have enriched our project, without which this work would not have taken its present form.
+
+Our parents have put us ahead of themselves. Because of their hard work and dedication, we have had opportunities beyond our wildest dreams. Our heartfelt thanks to them for giving us all we ever needed to be successful students and individuals.
+
+Finally, We extend our gratitude to all the authors and researchers whose previous work in computer vision and feature detection algorithms formed the foundation for this comparative analysis of AKAZE, ORB, and SIFT algorithms.
+
+
+
+
+Fatema Akter Kotha, 2012077107,
+Imratuzzahan Sumi, 2012177126

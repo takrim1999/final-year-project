@@ -1,15 +1,29 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Trivedi()]{cbamMedium}
-Shreejal Trivedi.
-\newblock Understanding attention modules: Cbam and bam — a quick read.
+\bibitem[wik(2025)]{wikiAttention}
+Attention (machine learning).
+\newblock \url{https://en.wikipedia.org/wiki/Attention_(machine_learning)},
+  2025.
+\newblock Accessed 2025-10-18.
+
+\bibitem[cba(2020)]{cbamDO}
+Attention mechanisms in computer vision: Cbam.
 \newblock
-  \url{https://medium.com/visionwizard/understanding-attention-modules-cbam-and-bam-a-quick-read-ca8678d1c671}.
+  \url{https://www.digitalocean.com/community/tutorials/attention-mechanisms-in-computer-vision-cbam},
+  2020.
+\newblock Accessed 2025-10-14.
+
+\bibitem[Trivedi(2021)]{cbamMedium}
+Shreejal Trivedi.
+\newblock Understanding attention modules: Cbam and bam -- a quick read.
+\newblock
+  \url{https://medium.com/visionwizard/understanding-attention-modules-cbam-and-bam-a-quick-read-ca8678d1c671},
+  2021.
 \newblock Accessed 2025-10-14.
 
 \bibitem[Woo et~al.(2018)Woo, Park, Lee, and Kweon]{woo2018cbam}
@@ -17,11 +31,75 @@ Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In~So Kweon.
 \newblock Cbam: Convolutional block attention module.
 \newblock In \emph{European Conference on Computer Vision}, 2018.
 
-\bibitem[cba()]{cbamDO}
-Attention mechanisms in computer vision: Cbam.
+\bibitem[odi(2019)]{odir5k}
+Odir---ocular disease intelligent recognition.
 \newblock
-  \url{https://www.digitalocean.com/community/tutorials/attention-mechanisms-in-computer-vision-cbam}.
+  \url{https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k},
+  2019.
 \newblock Accessed 2025-10-14.
+
+\bibitem[doc(2025{\natexlab{a}})]{docxRef01}
+The ultimate guide to identifying retinal disease on fundus photography.
+\newblock
+  \url{https://eyesoneyecare.com/resources/ultimate-guide-to-identifying-retinal-disease-on-fundus-photography/},
+  2025{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2009)]{docxRef04}
+Errors in fundus photography.
+\newblock
+  \url{https://cdn.ymaws.com/www.opsweb.org/resource/resmgr/boc_resourses_pdf/07-2-09.pdf},
+  2009.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{a}})]{docxRef05}
+Fundus photography clinical policy (aetna).
+\newblock \url{https://www.aetna.com/cpb/medical/data/500_599/0539.html},
+  2024{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2018{\natexlab{a}})]{docxRef07}
+Effect of cataract grade in wide-field fundus imaging.
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC5990639/},
+  2018{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{b}})]{docxRef08}
+Cataracts: Signs, symptoms and treatment (cleveland clinic).
+\newblock
+  \url{https://my.clevelandclinic.org/health/diseases/8589-cataracts-age-related},
+  2024{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{a}})]{docxRef12}
+Age-related macular degeneration (webvision).
+\newblock
+  \url{https://www.webvision.pitt.edu/book/part-xii-cell-biology-of-retinal-degenerations/age-related-macular-degeneration-amd/},
+  2023{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2021{\natexlab{a}})]{docxRef13}
+Detecting amd biomarker images using mfcc/texture.
+\newblock \url{https://par.nsf.gov/servlets/purl/10301904}, 2021{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2005)]{docxRef16}
+Hypertensive retinopathy as cardiovascular risk indicator.
+\newblock \url{https://academic.oup.com/bmb/article/73-74/1/57/332371}, 2005.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2021{\natexlab{b}})]{docxRef17}
+Imi pathologic myopia.
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC8083114/},
+  2021{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2016)]{docxRef18}
+Myopic posterior staphyloma characteristics.
+\newblock
+  \url{https://www.researchgate.net/publication/301581303_Morphological_and_clinical_characteristics_of_myopic_posterior_staphyloma_in_Caucasians},
+  2016.
+\newblock Accessed 2025-10-19.
 
 \bibitem[Tan and Le(2019)]{tan2019efficientnet}
 Mingxing Tan and Quoc Le.
@@ -29,18 +107,314 @@ Mingxing Tan and Quoc Le.
   networks.
 \newblock In \emph{International Conference on Machine Learning}, 2019.
 
-\bibitem[odi()]{odir5k}
-Odir---ocular disease intelligent recognition.
+\bibitem[Waleed(2022)]{waleedKaggleEyes}
+Ahmed Waleed.
+\newblock Eyes disease classification -- deep learning.
 \newblock
-  \url{https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k}.
-\newblock Accessed 2025-10-14.
+  \url{https://www.kaggle.com/code/ahmedwaleed1903/eyes-disease-classification-deep-learning},
+  2022.
+\newblock Accessed 2025-10-18.
 
-\bibitem[Alam()]{takrimNotebook}
+\bibitem[Hu et~al.(2018)Hu, Shen, and Sun]{hu2018squeeze}
+Jie Hu, Li~Shen, and Gang Sun.
+\newblock Squeeze-and-excitation networks.
+\newblock In \emph{IEEE Conference on Computer Vision and Pattern Recognition},
+  2018.
+
+\bibitem[Park et~al.(2018)Park, Woo, Lee, and Kweon]{park2018bam}
+Jongchan Park, Sanghyun Woo, Joon-Young Lee, and In~So Kweon.
+\newblock Bam: Bottleneck attention module.
+\newblock In \emph{British Machine Vision Conference}, 2018.
+
+\bibitem[Wang et~al.(2020)Wang, Wu, Zhu, Li, Zuo, and Hu]{wang2020eca}
+Qilong Wang, Bang Wu, Pengfei Zhu, Peihua Li, Wangmeng Zuo, and Qinghua Hu.
+\newblock Eca-net: Efficient channel attention for deep convolutional neural
+  networks.
+\newblock In \emph{IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}, 2020.
+
+\bibitem[doc(2023{\natexlab{b}})]{docxRef41}
+Medical imaging metrics overview.
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10797809/},
+  2023{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2020{\natexlab{a}})]{docxRef42}
+Interpretable ml for image classification with lime (medium).
+\newblock
+  \url{https://medium.com/data-science/interpretable-machine-learning-for-image-classification-with-lime-ea947e82ca13},
+  2020{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{c}})]{docxRef43}
+Hands-on xai with shap and lime (kaggle).
+\newblock
+  \url{https://www.kaggle.com/code/yatrikshah/hands-on-xai-with-shap-and-lime},
+  2023{\natexlab{c}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2025{\natexlab{b}})]{docxRef09}
+Cataract (wikipedia).
+\newblock \url{https://en.wikipedia.org/wiki/Cataract}, 2025{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{d}})]{docxRef14}
+Automatic detection of hypertensive retinopathy.
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10813404/},
+  2023{\natexlab{d}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2014)]{docxRef15}
+Hypertensive retinopathy signs (researchgate figure).
+\newblock
+  \url{https://www.researchgate.net/figure/Fundus-camera-image-showing-signs-of-hypertensive-retinopathy-ie-arteriovenous-nicking_fig4_263289543},
+  2014.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{c}})]{docxRef19}
+Efficientnet overview (scispace).
+\newblock
+  \url{https://scispace.com/papers/efficientnet-rethinking-model-scaling-for-convolutional-2jsibrxy0c},
+  2024{\natexlab{c}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2019{\natexlab{a}})]{docxRef20}
+Efficientnet original paper (arxiv).
+\newblock \url{https://arxiv.org/pdf/1905.11946}, 2019{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2019{\natexlab{b}})]{docxRef21}
+Efficientnet preprint (researchgate).
+\newblock
+  \url{https://www.researchgate.net/publication/333444574_EfficientNet_Rethinking_Model_Scaling_for_Convolutional_Neural_Networks},
+  2019{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[Dosovitskiy et~al.(2021)Dosovitskiy, Beyer, Kolesnikov, Weissenborn,
+  Zhai, Unterthiner, Dehghani, Minderer, Heigold, Gelly, Uszkoreit, and
+  Houlsby]{dosovitskiy2021vit}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+  Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+
+\bibitem[doc(2023{\natexlab{e}})]{docxRef23}
+Vision transformers overview (roboflow blog).
+\newblock \url{https://blog.roboflow.com/vision-transformers/},
+  2023{\natexlab{e}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{d}})]{docxRef24}
+Vit overview (scispace).
+\newblock
+  \url{https://scispace.com/papers/an-image-is-worth-16x16-words-transformers-for-image-v85s5ahlww},
+  2024{\natexlab{d}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{e}})]{docxRef25}
+Geeksforgeeks: Vit architecture.
+\newblock
+  \url{https://www.geeksforgeeks.org/deep-learning/vision-transformer-vit-architecture/},
+  2024{\natexlab{e}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2021{\natexlab{c}})]{docxRef26}
+Vit explainer (medium).
+\newblock
+  \url{https://medium.com/data-science/a-deep-dive-into-the-code-of-the-visual-transformer-vit-model-1ce4cc05ca8d},
+  2021{\natexlab{c}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{f}})]{docxRef62}
+Multi-label classification of biomedical data (pmc).
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC11411592/},
+  2024{\natexlab{f}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{f}})]{docxRef63}
+Multi-label classification with deep learning (cras).
+\newblock
+  \url{https://comptes-rendus.academie-sciences.fr/physique/articles/10.5802/crphys.193/},
+  2023{\natexlab{f}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{g}})]{docxRef64}
+Multi-label contrastive learning (arxiv).
+\newblock \url{https://arxiv.org/html/2412.00101v1}, 2024{\natexlab{g}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2021{\natexlab{d}})]{docxRef65}
+Novel loss functions for ensemble medical imaging.
+\newblock
+  \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261307},
+  2021{\natexlab{d}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{h}})]{docxRef38}
+Evaluation metrics (schneppat).
+\newblock \url{https://schneppat.com/evaluation-metrics.html},
+  2024{\natexlab{h}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2021{\natexlab{e}})]{docxRef46}
+Data augmentation for 3d tumor segmentation.
+\newblock
+  \url{https://www.diva-portal.org/smash/get/diva2:1588376/FULLTEXT01.pdf},
+  2021{\natexlab{e}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{i}})]{docxRef47}
+Elastic transformation (milvus).
+\newblock
+  \url{https://milvus.io/ai-quick-reference/what-is-elastic-transformation-in-data-augmentation},
+  2024{\natexlab{i}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{g}})]{docxRef48}
+Elastic transformations (schneppat).
+\newblock \url{https://schneppat.com/elastic-transformations.html},
+  2023{\natexlab{g}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{h}})]{docxRef49}
+Elastic deformation for oct (pmc).
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10561735/},
+  2023{\natexlab{h}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2020{\natexlab{b}})]{docxRef50}
+Elastic deformations (kaggle).
+\newblock
+  \url{https://www.kaggle.com/code/ori226/data-augmentation-with-elastic-deformations},
+  2020{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2022{\natexlab{a}})]{docxRef52}
+Survey of gan augmentation (researchgate).
+\newblock
+  \url{https://www.researchgate.net/publication/358845746_Survey_of_Image_Augmentation_Based_on_Generative_Adversarial_Network},
+  2022{\natexlab{a}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2025{\natexlab{c}})]{docxRef53}
+Gans for medical synthesis (sciety labs).
+\newblock
+  \url{https://labs.sciety.org/articles/by?article_doi=10.20944/preprints202506.1310.v1},
+  2025{\natexlab{c}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2025{\natexlab{d}})]{docxRef54}
+Gans for medical synthesis (preprints.org).
+\newblock \url{https://www.preprints.org/manuscript/202506.1310/v1},
+  2025{\natexlab{d}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2022{\natexlab{b}})]{docxRef55}
+Gan use in medical field (medium).
+\newblock
+  \url{https://medium.com/@aysenceliktas/overview-of-gan-use-in-the-medical-field-23cb90adf51d},
+  2022{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2021{\natexlab{f}})]{docxRef56}
+Gan augmentation for x-ray classification (pmc).
+\newblock \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC8607740/},
+  2021{\natexlab{f}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{i}})]{docxRef44}
+Lime vs shap (markovml).
+\newblock \url{https://www.markovml.com/blog/lime-vs-shap}, 2023{\natexlab{i}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2025{\natexlab{e}})]{docxRef45}
+Interpreting ml predictions (iiard).
+\newblock
+  \url{https://iiardjournals.org/get/IJCSMT/VOL.%2011%20NO.%208%202025/Interpreting%20Machine%20Learning%2022-49.pdf},
+  2025{\natexlab{e}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2023{\natexlab{j}})]{docxRef66}
+Self-supervised learning for medical imaging (lightly).
+\newblock
+  \url{https://www.lightly.ai/blog/self-supervised-learning-for-medical-imaging},
+  2023{\natexlab{j}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{j}})]{docxRef67}
+Federated learning for medical image analysis (scilight).
+\newblock \url{https://www.sciltp.com/journals/tai/articles/2508001101},
+  2024{\natexlab{j}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2024{\natexlab{k}})]{docxRef68}
+When federated learning meets medical image (now publishers).
+\newblock
+  \url{https://www.nowpublishers.com/article/OpenAccessDownload/SIP-20240048},
+  2024{\natexlab{k}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2017.
+
+\bibitem[Touvron et~al.(2021)Touvron, Cord, Douze, Massa, Sablayrolles, and
+  J{\'e}gou]{touvron2021deit}
+Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre
+  Sablayrolles, and Herv{\'e} J{\'e}gou.
+\newblock Training data-efficient image transformers and distillation through
+  attention.
+\newblock In \emph{International Conference on Machine Learning}, 2021.
+
+\bibitem[Alam(2025)]{takrimNotebook}
 M.~T.~U. Alam.
 \newblock Efficientnet vs efficientnet+cbam: Attention-enhanced odir-5k
   classification.
 \newblock
-  \url{https://www.kaggle.com/code/takrimulalam/efficientnet-vs-efficientnet-cbam}.
+  \url{https://www.kaggle.com/code/takrimulalam/efficientnet-vs-efficientnet-cbam},
+  2025.
 \newblock Accessed 2025-10-14.
+
+\bibitem[doc(2021{\natexlab{g}})]{docxRef22}
+Vit paper (google research).
+\newblock
+  \url{https://research.google/pubs/an-image-is-worth-16x16-words-transformers-for-image-recognition-at-scale/},
+  2021{\natexlab{g}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2025{\natexlab{f}})]{docxRef27}
+Vision transformer (wikipedia).
+\newblock \url{https://en.wikipedia.org/wiki/Vision_transformer},
+  2025{\natexlab{f}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2018{\natexlab{b}})]{docxRef29}
+Se networks (cvpr 2018).
+\newblock
+  \url{https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf},
+  2018{\natexlab{b}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2018{\natexlab{c}})]{docxRef31}
+Bam (arxiv).
+\newblock \url{https://arxiv.org/pdf/1807.06514}, 2018{\natexlab{c}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2018{\natexlab{d}})]{docxRef32}
+Cbam (eccv 2018 openaccess).
+\newblock
+  \url{https://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf},
+  2018{\natexlab{d}}.
+\newblock Accessed 2025-10-19.
+
+\bibitem[doc(2018{\natexlab{e}})]{docxRef33}
+Cbam (arxiv preprint).
+\newblock \url{https://arxiv.org/pdf/1807.06521}, 2018{\natexlab{e}}.
+\newblock Accessed 2025-10-19.
 
 \end{thebibliography}

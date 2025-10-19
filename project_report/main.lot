@@ -6,3 +6,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Overall test metrics. Higher is better.}}{23}{table.caption.28}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Per\textendash class precision (P), recall (R), F1 on test set, and $\Delta $F1 = (CBAM$-$Base).}}{23}{table.caption.30}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Row\textendash normalized confusion matrix (\%) — EfficientNet baseline.}}{24}{table.caption.32}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Row\textendash normalized confusion matrix (\%) — EfficientNet+CBAM.}}{24}{table.caption.33}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

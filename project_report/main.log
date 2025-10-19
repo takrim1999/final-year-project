@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.9.3)  18 OCT 2025 07:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.9.3)  19 OCT 2025 06:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+**\def\WITHOUTACK{}\input{main.tex}
+(./main.tex (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
@@ -32,40 +29,41 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
@@ -124,6 +122,18 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen151
+\ttl@minus=\dimen152
+\ttl@toksa=\toks21
+\titlewidth=\dimen153
+\titlewidthlast=\dimen154
+\titlewidthfirst=\dimen155
+)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 
@@ -131,15 +141,15 @@ Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count276
 )
-\MT@toks=\toks21
-\MT@tempbox=\box52
+\MT@toks=\toks22
+\MT@tempbox=\box53
 \MT@count=\count277
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks22
+\MT@prot@toks=\toks23
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen151
+\MT@outer@kern=\dimen156
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count278
@@ -149,7 +159,7 @@ File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip51
+\MT@outer@space=\skip53
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -175,22 +185,22 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen152
-\Gin@req@width=\dimen153
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen154
-\captionmargin=\dimen155
-\caption@leftmargin=\dimen156
-\caption@rightmargin=\dimen157
-\caption@width=\dimen158
-\caption@indent=\dimen159
-\caption@parindent=\dimen160
-\caption@hangindent=\dimen161
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count279
@@ -205,30 +215,30 @@ Package caption Info: New subtype `subtable' on input line 238.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen162
-\lightrulewidth=\dimen163
-\cmidrulewidth=\dimen164
-\belowrulesep=\dimen165
-\belowbottomsep=\dimen166
-\aboverulesep=\dimen167
-\abovetopsep=\dimen168
-\cmidrulesep=\dimen169
-\cmidrulekern=\dimen170
-\defaultaddspace=\dimen171
+\heavyrulewidth=\dimen167
+\lightrulewidth=\dimen168
+\cmidrulewidth=\dimen169
+\belowrulesep=\dimen170
+\belowbottomsep=\dimen171
+\aboverulesep=\dimen172
+\abovetopsep=\dimen173
+\cmidrulesep=\dimen174
+\cmidrulekern=\dimen175
+\defaultaddspace=\dimen176
 \@cmidla=\count283
 \@cmidlb=\count284
-\@aboverulesep=\dimen172
-\@belowrulesep=\dimen173
+\@aboverulesep=\dimen177
+\@belowrulesep=\dimen178
 \@thisruleclass=\count285
 \@lastruleclass=\count286
-\@thisrulewidth=\dimen174
+\@thisrulewidth=\dimen179
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip52
+\multirow@colwidth=\skip54
 \multirow@cntb=\count287
-\multirow@dima=\skip53
-\bigstrutjot=\dimen175
+\multirow@dima=\skip55
+\bigstrutjot=\dimen180
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -249,9 +259,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks24
+\float@box=\box54
+\@float@everytoks=\toks25
+\@floatcapt=\box55
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip54
+\@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -259,61 +277,61 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen176
+\@emptytoks=\toks26
+\ex@=\dimen181
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen177
+\pmbraise@=\dimen182
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count288
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count289
-\leftroot@=\count290
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count291
-\DOTSCASE@=\count292
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
+\Mathstrutbox@=\box56
+\strutbox@=\box57
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen178
+\big@size=\dimen183
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count293
+\macc@depth=\count294
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip17
-\c@parentequation=\count295
-\dspbrk@lvl=\count296
-\tag@help=\toks24
-\row@=\count297
-\column@=\count298
-\maxfields@=\count299
-\andhelp@=\toks25
-\eqnshift@=\dimen179
-\alignsep@=\dimen180
-\tagshift@=\dimen181
-\tagwidth@=\dimen182
-\totwidth@=\dimen183
-\lineht@=\dimen184
-\@envbody=\toks26
-\multlinegap=\skip55
-\multlinetaggap=\skip56
-\mathdisplay@stack=\toks27
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
+\tag@help=\toks27
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
+\andhelp@=\toks28
+\eqnshift@=\dimen184
+\alignsep@=\dimen185
+\tagshift@=\dimen186
+\tagwidth@=\dimen187
+\totwidth@=\dimen188
+\lineht@=\dimen189
+\@envbody=\toks29
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -322,9 +340,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
@@ -369,15 +386,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count300
+\c@section@level=\count301
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen185
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\@linkdim=\dimen190
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
@@ -387,7 +404,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count304
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
@@ -401,14 +418,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count305
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen186
+\XeTeXLinkMargin=\dimen191
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -417,9 +434,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count305
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
+\Fld@menulength=\count306
+\Field@Width=\dimen192
+\Fld@charsize=\dimen193
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -432,9 +449,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -446,8 +463,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -458,47 +475,47 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip58
-\bibsep=\skip59
+\bibhang=\skip60
+\bibsep=\skip61
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count311
+\c@NAT@ctr=\count312
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 68
 .
 
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count313
+\l__pdf_internal_box=\box58
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -534,40 +551,39 @@ LaTeX Font Info:    ... okay on input line 47.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 47.
-Package microtype Info: Applying patch `item' on input line 47.
-Package microtype Info: Applying patch `toc' on input line 47.
-Package microtype Info: Applying patch `eqnum' on input line 47.
-Package microtype Info: Applying patch `footnote' on input line 47.
-Package microtype Info: Applying patch `verbatim' on input line 47.
-LaTeX Info: Redefining \microtypesetup on input line 47.
+LaTeX Info: Redefining \microtypecontext on input line 68.
+Package microtype Info: Applying patch `item' on input line 68.
+Package microtype Info: Applying patch `toc' on input line 68.
+Package microtype Info: Applying patch `eqnum' on input line 68.
+Package microtype Info: Applying patch `footnote' on input line 68.
+Package microtype Info: Applying patch `verbatim' on input line 68.
+LaTeX Info: Redefining \microtypesetup on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 47.
+LaTeX Info: Redefining \showhyphens on input line 68.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen189
-\scratchbox=\box56
-\nofMPsegments=\count314
-\nofMParguments=\count315
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen190
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count314
+\scratchdimen=\dimen194
+\scratchbox=\box59
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen195
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -586,9 +602,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 68.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -598,411 +615,825 @@ Package hyperref Info: Link coloring OFF on input line 47.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-ec.enc}] (./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-3.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-3.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
-\tf@toc=\write4
-\openout4 = `main.toc'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}] (./sections/abstract.tex)
+Overfull \hbox (12.3057pt too wide) in paragraph at lines 112--113
+[]\T1/ptm/b/n/12 (-20) Keywords: \T1/ptm/m/n/12 (-20) Ef-fi-cient-Net, CBAM, oc
+-u-lar dis-ease clas-si-fi-ca-tion, ODIR^^U5K, Grad^^UCAM, ROC^^UAUC,
+ []
 
 
 
 [1
 
-] (./main.lof)
+
+
+] (./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+[4
+
+
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+
+[5] (./main.lof
+Overfull \hbox (30.22731pt too wide) in paragraph at lines 23--23
+ \T1/ptm/m/n/12 (-20) AMD, Hy-per-ten-sion, My-opia), we show In-put, EffNet Gr
+ad^^UCAM, and EffNet+CBAM 
+ []
+
+
+
+[6
+
+
+])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
 
 
-[2
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-mathsy.enc}] (./main.lot)
+[7] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
 
 
-[3
+[8
 
-] (./sections/abstract.tex) (./sections/01_introduction.tex
+
+] (./sections/01_introduction.tex
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+4.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Introduction} [1
+l.21 
+      [1
 
-]
-Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
-.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (./sections/02_related_work.tex
 
-[2
+]) (./sections/02_related_work.tex
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+[2]
 Chapter 2.
-) (./sections/03_dataset.tex
+<../new_work/websites/Attention (machine learning) - Wikipedia_files/Attention_
+mechanism_overview.svg.png, id=412, 250.9375pt x 187.70125pt>
+File: ../new_work/websites/Attention (machine learning) - Wikipedia_files/Atten
+tion_mechanism_overview.svg.png Graphic file (type png)
+<use ../new_work/websites/Attention (machine learning) - Wikipedia_files/Attent
+ion_mechanism_overview.svg.png>
+Package pdftex.def Info: ../new_work/websites/Attention (machine learning) - Wi
+kipedia_files/Attention_mechanism_overview.svg.png  used on input line 13.
+(pdftex.def)             Requested size: 416.72963pt x 311.7501pt.
+<../new_work/websites/Attention (machine learning) - Wikipedia_files/Self-atten
+tion_in_CNN,_RNN,_and_self-attention.svg.png, id=416, 250.9375pt x 167.62625pt>
+
+File: ../new_work/websites/Attention (machine learning) - Wikipedia_files/Self-
+attention_in_CNN,_RNN,_and_self-attention.svg.png Graphic file (type png)
+<use ../new_work/websites/Attention (machine learning) - Wikipedia_files/Self-a
+ttention_in_CNN,_RNN,_and_self-attention.svg.png>
+Package pdftex.def Info: ../new_work/websites/Attention (machine learning) - Wi
+kipedia_files/Self-attention_in_CNN,_RNN,_and_self-attention.svg.png  used on i
+nput line 20.
+(pdftex.def)             Requested size: 407.66833pt x 272.35359pt.
+<../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ DigitalOc
+ean_files/main_model.png, id=419, 814.54312pt x 332.74312pt>
+File: ../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ Digi
+talOcean_files/main_model.png Graphic file (type png)
+<use ../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ Digit
+alOcean_files/main_model.png>
+Package pdftex.def Info: ../new_work/websites/Attention Mechanisms in Computer 
+Vision_ CBAM _ DigitalOcean_files/main_model.png  used on input line 27.
+(pdftex.def)             Requested size: 430.31812pt x 175.78435pt.
+
 
 [3
 
-]
+]) (./sections/02b_literature_expansion.tex
+
+[4 <../new_work/websites/Attention (machine learning) - Wikipedia_files/Attenti
+on_mechanism_overview.svg.png>]
+
+[5 <../new_work/websites/Attention (machine learning) - Wikipedia_files/Self-at
+tention_in_CNN,_RNN,_and_self-attention.svg.png> <../new_work/websites/Attentio
+n Mechanisms in Computer Vision_ CBAM _ DigitalOcean_files/main_model.png>]
 Chapter 3.
+
+
+[6
+
+]
+
+[7]
+<../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/1_-ENqv4T
+I0JuyY6Nq8XQlAA.png, id=505, 788.9475pt x 338.26375pt>
+File: ../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/1_-E
+Nqv4TI0JuyY6Nq8XQlAA.png Graphic file (type png)
+<use ../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/1_-EN
+qv4TI0JuyY6Nq8XQlAA.png>
+Package pdftex.def Info: ../new_work/websites/Efficientnet Architecture - Geeks
+forGeeks_files/1_-ENqv4TI0JuyY6Nq8XQlAA.png  used on input line 28.
+(pdftex.def)             Requested size: 416.72963pt x 178.67503pt.
+<../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Residual-
+Block-vs-Inverted-Residual-Block.png, id=506, 1003.75pt x 471.7625pt>
+File: ../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Resi
+dual-Block-vs-Inverted-Residual-Block.png Graphic file (type png)
+<use ../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Resid
+ual-Block-vs-Inverted-Residual-Block.png>
+Package pdftex.def Info: ../new_work/websites/Efficientnet Architecture - Geeks
+forGeeks_files/Residual-Block-vs-Inverted-Residual-Block.png  used on input lin
+e 35.
+(pdftex.def)             Requested size: 416.72963pt x 195.86417pt.
+<../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Compariso
+n-with-EfficientNet-(1).png, id=507, 1045.9075pt x 747.79375pt>
+File: ../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Comp
+arison-with-EfficientNet-(1).png Graphic file (type png)
+<use ../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Compa
+rison-with-EfficientNet-(1).png>
+Package pdftex.def Info: ../new_work/websites/Efficientnet Architecture - Geeks
+forGeeks_files/Comparison-with-EfficientNet-(1).png  used on input line 42.
+(pdftex.def)             Requested size: 416.72963pt x 297.94833pt.
+
+
+[8 <../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/1_-ENq
+v4TI0JuyY6Nq8XQlAA.png (PNG copy)> <../new_work/websites/Efficientnet Architect
+ure - GeeksforGeeks_files/Residual-Block-vs-Inverted-Residual-Block.png (PNG co
+py)>]
+
+[9 <../new_work/websites/Efficientnet Architecture - GeeksforGeeks_files/Compar
+ison-with-EfficientNet-(1).png (PNG copy)>]
+Overfull \hbox (17.4274pt too wide) in paragraph at lines 69--70
+\T1/ptm/m/n/12 (-20) Two fron-tiers ad-dress fun-da-men-tal med-i-cal AI bot-tl
+e-necks: la-bel-ing and data ac-cess. Self^^Usupervised
+ []
+
+
+
+[10]) (./sections/03_dataset.tex
+
+[11]
+Chapter 4.
 ) (./sections/04_methodology.tex
 
-[4
+[12
 
 ]
-Chapter 4.
-<../new_work/figures/about-cbam/base-attention-model.png, id=223, 830.10126pt x
+Chapter 5.
+<../new_work/figures/about-cbam/base-attention-model.png, id=569, 830.10126pt x
  336.25626pt>
 File: ../new_work/figures/about-cbam/base-attention-model.png Graphic file (typ
 e png)
 <use ../new_work/figures/about-cbam/base-attention-model.png>
 Package pdftex.def Info: ../new_work/figures/about-cbam/base-attention-model.pn
-g  used on input line 10.
+g  used on input line 11.
 (pdftex.def)             Requested size: 407.66833pt x 165.13643pt.
-<../new_work/figures/about-cbam/cbam-architecture.png, id=229, 808.01875pt x 26
+<../new_work/figures/about-cbam/cbam-architecture.png, id=575, 808.01875pt x 26
 4.99pt>
 File: ../new_work/figures/about-cbam/cbam-architecture.png Graphic file (type p
 ng)
 <use ../new_work/figures/about-cbam/cbam-architecture.png>
 Package pdftex.def Info: ../new_work/figures/about-cbam/cbam-architecture.png  
-used on input line 26.
+used on input line 27.
 (pdftex.def)             Requested size: 430.31812pt x 141.12332pt.
+<../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ DigitalOc
+ean_files/image-1.png, id=580, 1437.37pt x 806.01125pt>
+File: ../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ Digi
+talOcean_files/image-1.png Graphic file (type png)
+<use ../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ Digit
+alOcean_files/image-1.png>
+Package pdftex.def Info: ../new_work/websites/Attention Mechanisms in Computer 
+Vision_ CBAM _ DigitalOcean_files/image-1.png  used on input line 34.
+(pdftex.def)             Requested size: 416.72963pt x 233.67578pt.
+
+
+[13
+
+]
+
+[14 <../new_work/figures/about-cbam/base-attention-model.png (PNG copy)> <../ne
+w_work/figures/about-cbam/cbam-architecture.png (PNG copy)>]
+
+[15 <../new_work/websites/Attention Mechanisms in Computer Vision_ CBAM _ Digit
+alOcean_files/image-1.png>]
+
+[16]
+Overfull \hbox (0.29109pt too wide) in paragraph at lines 79--80
+[]\T1/ptm/m/n/12 (-20) ViTs treat im-ages as patch se-quences and learn spa-tia
+l re-la-tions pri-mar-ily via global self^^Uattention.
+ []
+
 <../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architecture.p
-ng, id=234, 2055.68pt x 513.92pt>
+ng, id=620, 2055.68pt x 513.92pt>
 File: ../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architect
 ure.png Graphic file (type png)
 <use ../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architectu
 re.png>
 Package pdftex.def Info: ../new_work/figures/about-cbam/EfficientNet-placement-
-with-CBAM-architecture.png  used on input line 34.
+with-CBAM-architecture.png  used on input line 84.
 (pdftex.def)             Requested size: 407.66833pt x 101.91173pt.
 
 
-[5
+[17 <../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architectu
+re.png (PNG copy)>]) (./sections/05_experiments.tex
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+[18]
+Chapter 6.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc} <../new_work/figures/abou
-t-cbam/base-attention-model.png (PNG copy)> <../new_work/figures/about-cbam/cba
-m-architecture.png (PNG copy)>]) (./sections/05_experiments.tex
 
-[7 <../new_work/figures/about-cbam/EfficientNet-placement-with-CBAM-architectur
-e.png (PNG copy)>]
-Chapter 5.
+[19
 
-Overfull \hbox (1.26247pt too wide) in paragraph at lines 5--6
- []\T1/lmr/bx/n/12 (-20) Model sizes.[] \T1/lmr/m/n/12 (-20) Best Ef-fi-cient-N
-et base-line check-point: 87.26 MB. Best Ef-fi-cient-Net+CBAM
+]
+
+[20]) (./sections/06_results.tex
+
+[21]
+Chapter 7.
+
+Overfull \hbox (52.00046pt too wide) in paragraph at lines 13--23
+ [][] 
+ []
+
+
+Overfull \hbox (6.89288pt too wide) in paragraph at lines 34--45
+ [][] 
  []
 
 
 
-[8
+[22
 
-]) (./sections/06_results.tex
-
-[9]
-Chapter 6.
-<../new_work/figures/effnet_baseline_acc.png, id=282, 462.528pt x 346.896pt>
+]
+<../new_work/figures/effnet_baseline_acc.png, id=681, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_acc.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_acc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_acc.png  used on i
-nput line 17.
+nput line 105.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_acc.png, id=284, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_acc.png, id=682, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_acc.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_acc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_acc.png  used on input
- line 18.
+ line 106.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_baseline_loss.png, id=285, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_baseline_loss.png, id=683, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_loss.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_loss.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_loss.png  used on 
-input line 19.
+input line 107.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_loss.png, id=286, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_loss.png, id=684, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_loss.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_loss.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_loss.png  used on inpu
-t line 20.
+t line 108.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_baseline_auc.png, id=287, 462.528pt x 346.896pt>
+
+
+[23]
+
+[24 <../new_work/figures/effnet_baseline_acc.png> <../new_work/figures/effnet_c
+bam_acc.png> <../new_work/figures/effnet_baseline_loss.png> <../new_work/figure
+s/effnet_cbam_loss.png>]
+<../new_work/figures/effnet_baseline_auc.png, id=701, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_auc.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_auc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_auc.png  used on i
-nput line 27.
+nput line 118.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_auc.png, id=288, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_auc.png, id=702, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_auc.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_auc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_auc.png  used on input
- line 28.
+ line 119.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_baseline_prc.png, id=289, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_baseline_prc.png, id=703, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_baseline_prc.png Graphic file (type png)
 <use ../new_work/figures/effnet_baseline_prc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_baseline_prc.png  used on i
-nput line 29.
+nput line 120.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/effnet_cbam_prc.png, id=290, 462.528pt x 346.896pt>
+<../new_work/figures/effnet_cbam_prc.png, id=704, 462.528pt x 346.896pt>
 File: ../new_work/figures/effnet_cbam_prc.png Graphic file (type png)
 <use ../new_work/figures/effnet_cbam_prc.png>
 Package pdftex.def Info: ../new_work/figures/effnet_cbam_prc.png  used on input
- line 30.
+ line 121.
 (pdftex.def)             Requested size: 217.42265pt x 163.0676pt.
-<../new_work/figures/roc_curves_effnet_baseline.png, id=291, 505.89pt x 433.62p
+
+
+[25 <../new_work/figures/effnet_baseline_auc.png> <../new_work/figures/effnet_c
+bam_auc.png> <../new_work/figures/effnet_baseline_prc.png> <../new_work/figures
+/effnet_cbam_prc.png>]
+<../new_work/figures/roc_curves_effnet_baseline.png, id=713, 505.89pt x 433.62p
 t>
 File: ../new_work/figures/roc_curves_effnet_baseline.png Graphic file (type png
 )
 <use ../new_work/figures/roc_curves_effnet_baseline.png>
 Package pdftex.def Info: ../new_work/figures/roc_curves_effnet_baseline.png  us
-ed on input line 37.
+ed on input line 131.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/roc_curves_effnet_cbam.png, id=292, 505.89pt x 433.62pt>
+<../new_work/figures/roc_curves_effnet_cbam.png, id=714, 505.89pt x 433.62pt>
 File: ../new_work/figures/roc_curves_effnet_cbam.png Graphic file (type png)
 <use ../new_work/figures/roc_curves_effnet_cbam.png>
 Package pdftex.def Info: ../new_work/figures/roc_curves_effnet_cbam.png  used o
-n input line 38.
+n input line 132.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/pr_curves_effnet_baseline.png, id=293, 505.89pt x 433.62pt
+<../new_work/figures/pr_curves_effnet_baseline.png, id=715, 505.89pt x 433.62pt
 >
 File: ../new_work/figures/pr_curves_effnet_baseline.png Graphic file (type png)
 
 <use ../new_work/figures/pr_curves_effnet_baseline.png>
 Package pdftex.def Info: ../new_work/figures/pr_curves_effnet_baseline.png  use
-d on input line 39.
+d on input line 133.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/pr_curves_effnet_cbam.png, id=294, 505.89pt x 433.62pt>
+<../new_work/figures/pr_curves_effnet_cbam.png, id=716, 505.89pt x 433.62pt>
 File: ../new_work/figures/pr_curves_effnet_cbam.png Graphic file (type png)
 <use ../new_work/figures/pr_curves_effnet_cbam.png>
 Package pdftex.def Info: ../new_work/figures/pr_curves_effnet_cbam.png  used on
- input line 40.
+ input line 134.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/cm_effnet_baseline_percent.png, id=295, 505.89pt x 433.62p
+
+
+[26 <../new_work/figures/roc_curves_effnet_baseline.png> <../new_work/figures/r
+oc_curves_effnet_cbam.png> <../new_work/figures/pr_curves_effnet_baseline.png> 
+<../new_work/figures/pr_curves_effnet_cbam.png>]
+<../new_work/figures/cm_effnet_baseline_percent.png, id=726, 505.89pt x 433.62p
 t>
 File: ../new_work/figures/cm_effnet_baseline_percent.png Graphic file (type png
 )
 <use ../new_work/figures/cm_effnet_baseline_percent.png>
 Package pdftex.def Info: ../new_work/figures/cm_effnet_baseline_percent.png  us
-ed on input line 48.
+ed on input line 145.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
-<../new_work/figures/cm_effnet_cbam_percent.png, id=296, 505.89pt x 433.62pt>
+<../new_work/figures/cm_effnet_cbam_percent.png, id=727, 505.89pt x 433.62pt>
 File: ../new_work/figures/cm_effnet_cbam_percent.png Graphic file (type png)
 <use ../new_work/figures/cm_effnet_cbam_percent.png>
 Package pdftex.def Info: ../new_work/figures/cm_effnet_cbam_percent.png  used o
-n input line 49.
+n input line 146.
 (pdftex.def)             Requested size: 217.42265pt x 186.36694pt.
 
 
-[10
-
-]
-<../new_work/figures/gradcam_benchmark_panel.png, id=302, 755.9442pt x 475.5366
+[27 <../new_work/figures/cm_effnet_baseline_percent.png> <../new_work/figures/c
+m_effnet_cbam_percent.png>]
+<../new_work/figures/gradcam_benchmark_panel.png, id=736, 755.9442pt x 475.5366
 pt>
 File: ../new_work/figures/gradcam_benchmark_panel.png Graphic file (type png)
 <use ../new_work/figures/gradcam_benchmark_panel.png>
 Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_panel.png  used 
-on input line 59.
+on input line 159.
 (pdftex.def)             Requested size: 443.9066pt x 279.24355pt.
-<../new_work/figures/gradcam_benchmark_Glaucoma.png, id=303, 162.6075pt x 475.5
+
+
+[28 <../new_work/figures/gradcam_benchmark_panel.png>]
+<../new_work/figures/gradcam_benchmark_Glaucoma.png, id=743, 162.6075pt x 475.5
 366pt>
 File: ../new_work/figures/gradcam_benchmark_Glaucoma.png Graphic file (type png
 )
 <use ../new_work/figures/gradcam_benchmark_Glaucoma.png>
 Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Glaucoma.png  us
-ed on input line 69.
+ed on input line 172.
 (pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
-<../new_work/figures/gradcam_benchmark_Cataract.png, id=304, 162.6075pt x 475.5
+<../new_work/figures/gradcam_benchmark_Cataract.png, id=744, 162.6075pt x 475.5
 366pt>
 File: ../new_work/figures/gradcam_benchmark_Cataract.png Graphic file (type png
 )
 <use ../new_work/figures/gradcam_benchmark_Cataract.png>
 Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Cataract.png  us
-ed on input line 70.
+ed on input line 173.
 (pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
-<../new_work/figures/gradcam_benchmark_AMD.png, id=305, 162.6075pt x 475.5366pt
+<../new_work/figures/gradcam_benchmark_AMD.png, id=745, 162.6075pt x 475.5366pt
 >
 File: ../new_work/figures/gradcam_benchmark_AMD.png Graphic file (type png)
 <use ../new_work/figures/gradcam_benchmark_AMD.png>
 Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_AMD.png  used on
- input line 71.
+ input line 174.
 (pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
-<../new_work/figures/gradcam_benchmark_Hypertension.png, id=306, 162.6075pt x 4
+<../new_work/figures/gradcam_benchmark_Hypertension.png, id=746, 162.6075pt x 4
 75.5366pt>
 File: ../new_work/figures/gradcam_benchmark_Hypertension.png Graphic file (type
  png)
 <use ../new_work/figures/gradcam_benchmark_Hypertension.png>
 Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Hypertension.png
-  used on input line 72.
+  used on input line 175.
 (pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
-<../new_work/figures/gradcam_benchmark_Myopia.png, id=307, 162.6075pt x 475.536
+<../new_work/figures/gradcam_benchmark_Myopia.png, id=747, 162.6075pt x 475.536
 6pt>
 File: ../new_work/figures/gradcam_benchmark_Myopia.png Graphic file (type png)
 <use ../new_work/figures/gradcam_benchmark_Myopia.png>
 Package pdftex.def Info: ../new_work/figures/gradcam_benchmark_Myopia.png  used
- on input line 73.
+ on input line 176.
 (pdftex.def)             Requested size: 81.5309pt x 238.43527pt.
 
-Overfull \hbox (41.24077pt too wide) in paragraph at lines 67--75
+Overfull \hbox (22.8187pt too wide) in paragraph at lines 170--178
  [][] 
  []
 
-) (./sections/07_conclusion.tex
 
-[11 <../new_work/figures/effnet_baseline_acc.png> <../new_work/figures/effnet_c
-bam_acc.png> <../new_work/figures/effnet_baseline_loss.png> <../new_work/figure
-s/effnet_cbam_loss.png>]
 
-[12 <../new_work/figures/effnet_baseline_auc.png> <../new_work/figures/effnet_c
-bam_auc.png> <../new_work/figures/effnet_baseline_prc.png> <../new_work/figures
-/effnet_cbam_prc.png>]
+[29 <../new_work/figures/gradcam_benchmark_Glaucoma.png> <../new_work/figures/g
+radcam_benchmark_Cataract.png> <../new_work/figures/gradcam_benchmark_AMD.png> 
+<../new_work/figures/gradcam_benchmark_Hypertension.png> <../new_work/figures/g
+radcam_benchmark_Myopia.png>]) (./sections/07_conclusion.tex
 
-[13 <../new_work/figures/roc_curves_effnet_baseline.png> <../new_work/figures/r
-oc_curves_effnet_cbam.png> <../new_work/figures/pr_curves_effnet_baseline.png> 
-<../new_work/figures/pr_curves_effnet_cbam.png> <../new_work/figures/cm_effnet_
-baseline_percent.png> <../new_work/figures/cm_effnet_cbam_percent.png>]
+[30]
+Chapter 8.
+) (./sections/appendix.tex
 
-[14 <../new_work/figures/gradcam_benchmark_panel.png> <../new_work/figures/grad
-cam_benchmark_Glaucoma.png> <../new_work/figures/gradcam_benchmark_Cataract.png
-> <../new_work/figures/gradcam_benchmark_AMD.png> <../new_work/figures/gradcam_
-benchmark_Hypertension.png> <../new_work/figures/gradcam_benchmark_Myopia.png>]
-Chapter 7.
+[31
 
-Overfull \hbox (0.8552pt too wide) in paragraph at lines 2--3
-\T1/lmr/m/n/12 (-20) We pre-sented a prac-ti-cal com-par-i-son of an Ef-fi-cien
-t-Net base-line and an Ef-fi-cient-Net+CBAM
- []
+]
+Appendix A.
+)
 
-) (./sections/acknowledgements.tex)
-
-[15
+[32
 
 ] (./main.bbl
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-2.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--14
-[]\T1/lmr/m/n/12 (+20) Shreejal Trivedi.  Un-der-stand-ing at-ten-tion mod-ules
-: Cbam
+Underfull \hbox (badness 3780) in paragraph at lines 9--13
+[]\T1/ptm/m/n/12 (+20) Attention (ma-chine learn-ing).  []$\T1/cmtt/m/n/12 http
+s : / / en . wikipedia . org / wiki / Attention _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--14
-\T1/lmr/m/n/12 (+20) and bam ^^V a quick read.  []$\T1/lmtt/m/n/12 https : / / 
-medium . com / visionwizard /
+Underfull \hbox (badness 10000) in paragraph at lines 15--20
+\T1/cmtt/m/n/12 com / community / tutorials / attention-[]mechanisms-[]in-[]com
+puter-[]vision-[]cbam$[]\T1/ptm/m/n/12 (+20) ,
  []
 
 
-Overfull \hbox (2.96547pt too wide) in paragraph at lines 9--14
-\T1/lmtt/m/n/12 understanding-[]attention-[]modules-[]cbam-[]and-[]bam-[]a-[]qu
-ick-[]read-[]ca8678d1c671$[]\T1/lmr/m/n/12 (-20) .
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+[]\T1/ptm/m/n/12 (+20) Shreejal Trivedi.  Un-der-stand-ing at-ten-tion mod-ules
+: Cbam and
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 39--45
-[]\T1/lmr/m/n/12 (+20) M. T. U. Alam.  Ef-fi-cient-net vs ef-fi-cient-net+cbam:
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
+\T1/ptm/m/n/12 (+20) bam -- a quick read.  []$\T1/cmtt/m/n/12 https : / / mediu
+m . com / visionwizard /
+ []
+
+
+Overfull \hbox (10.98343pt too wide) in paragraph at lines 22--28
+\T1/cmtt/m/n/12 understanding-[]attention-[]modules-[]cbam-[]and-[]bam-[]a-[]qu
+ick-[]read-[]ca8678d1c671$[]\T1/ptm/m/n/12 (-20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
+[]\T1/ptm/m/n/12 (+20) The ul-ti-mate guide to iden-ti-fy-ing reti-nal dis-ease
+ on fun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
+\T1/ptm/m/n/12 (+20) dus pho-tog-ra-phy.  []$\T1/cmtt/m/n/12 https : / / eyeson
+eyecare . com / resources /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
+\T1/cmtt/m/n/12 ultimate-[]guide-[]to-[]identifying-[]retinal-[]disease-[]on-[]
+fundus-[]photography/$[]\T1/ptm/m/n/12 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\T1/ptm/m/n/12 (+20) Cataracts: Signs, symp-toms and treat-ment (cleve-land c
+linic).  []$\T1/cmtt/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+\T1/cmtt/m/n/12 / / my . clevelandclinic . org / health / diseases / 8589-[]cat
+aracts-[]age-[]related$[]\T1/ptm/m/n/12 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
+[]\T1/ptm/m/n/12 (+20) Age-related mac-u-lar de-gen-er-a-tion (we-b-vi-sion).  
+[]$\T1/cmtt/m/n/12 https : / / www . webvision .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
+\T1/cmtt/m/n/12 pitt . edu / book / part-[]xii-[]cell-[]biology-[]of-[]retinal-
+[]degenerations /
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 82--85
+[]\T1/ptm/m/n/12 (+20) Detecting amd biomarker im-ages us-ing mfcc/texture.  []
+$\T1/cmtt/m/n/12 https : / / par . nsf . gov /
+ []
+
+
+
+[33
+
+
+]
+Underfull \hbox (badness 1112) in paragraph at lines 98--103
+[]\T1/ptm/m/n/12 (+20) Myopic pos-te-rior staphy-loma char-ac-ter-is-tics.  []$
+\T1/cmtt/m/n/12 https : / / www . researchgate . net /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
+\T1/cmtt/m/n/12 publication / 301581303 _ Morphological _ and _ clinical _ char
+acteristics _ of _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
+\T1/cmtt/m/n/12 code / ahmedwaleed1903 / eyes-[]disease-[]classification-[]deep
+-[]learning$[]\T1/ptm/m/n/12 (+20) , 2022.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+[]\T1/ptm/m/n/12 (+20) Interpretable ml for im-age clas-si-fi-ca-tion with lime
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
+\T1/ptm/m/n/12 (+20) (medium).  []$\T1/cmtt/m/n/12 https : / / medium . com / d
+ata-[]science /
+ []
+
+
+Overfull \hbox (59.87137pt too wide) in paragraph at lines 143--148
+\T1/cmtt/m/n/12 interpretable-[]machine-[]learning-[]for-[]image-[]classificati
+on-[]with-[]lime-[]ea947e82ca13$[]\T1/ptm/m/n/12 (-20) ,
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 150--155
+[]\T1/ptm/m/n/12 (+20) Hands-on xai with shap and lime (kag-gle).  []$\T1/cmtt/
+m/n/12 https : / / www . kaggle . com / code /
+ []
+
+
+Overfull \hbox (157.58989pt too wide) in paragraph at lines 168--173
+\T1/cmtt/m/n/12 figure / Fundus-[]camera-[]image-[]showing-[]signs-[]of-[]hyper
+tensive-[]retinopathy-[]ie-[]arteriovenous-[]nicking _
+ []
+
+
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
+[]\T1/ptm/m/n/12 (+20) Efficientnet overview (scis-pace).  []$\T1/cmtt/m/n/12 h
+ttps : / / scispace . com / papers /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
+\T1/cmtt/m/n/12 efficientnet-[]rethinking-[]model-[]scaling-[]for-[]convolution
+al-[]2jsibrxy0c$[]\T1/ptm/m/n/12 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
+\T1/cmtt/m/n/12 333444574 _ EfficientNet _ Rethinking _ Model _ Scaling _ for _
+ Convolutional _
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 204--208
+[]\T1/ptm/m/n/12 (+20) Vision trans-form-ers overview (roboflow blog).  []$\T1/
+cmtt/m/n/12 https : / / blog . roboflow . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+[]\T1/ptm/m/n/12 (+20) Vit overview (scis-pace).  []$\T1/cmtt/m/n/12 https : / 
+/ scispace . com / papers /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+\T1/cmtt/m/n/12 an-[]image-[]is-[]worth-[]16x16-[]words-[]transformers-[]for-[]
+image-[]v85s5ahlww$[]\T1/ptm/m/n/12 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
+[]\T1/ptm/m/n/12 (+20) Vit ex-plainer (medium).  []$\T1/cmtt/m/n/12 https : / /
+ medium . com / data-[]science /
+ []
+
+
+Overfull \hbox (37.1774pt too wide) in paragraph at lines 224--229
+\T1/cmtt/m/n/12 a-[]deep-[]dive-[]into-[]the-[]code-[]of-[]the-[]visual-[]trans
+former-[]vit-[]model-[]1ce4cc05ca8d$[]\T1/ptm/m/n/12 (-20) ,
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 237--242
+[]\T1/ptm/m/n/12 (+20) Multi-label clas-si-fi-ca-tion with deep learn-ing (cras
+).  []$\T1/cmtt/m/n/12 https : / / comptes-[]rendus .
+ []
+
+
+
+[35]
+Underfull \hbox (badness 7047) in paragraph at lines 269--274
+[]\T1/ptm/m/n/12 (+20) Elastic trans-for-ma-tion (mil-vus).  []$\T1/cmtt/m/n/12
+ https : / / milvus . io / ai-[]quick-[]reference /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--280
+[]\T1/ptm/m/n/12 (+20) Elastic trans-for-ma-tions (schnep-pat).  []$\T1/cmtt/m/
+n/12 https : / / schneppat . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--293
+[]\T1/ptm/m/n/12 (+20) Elastic de-for-ma-tions (kag-gle).  []$\T1/cmtt/m/n/12 h
+ttps : / / www . kaggle . com / code / ori226 /
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 288--293
+\T1/cmtt/m/n/12 data-[]augmentation-[]with-[]elastic-[]deformations$[]\T1/ptm/m
+/n/12 (+20) , 2020.  Ac-cessed 2025-10-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
+[]\T1/ptm/m/n/12 (+20) Survey of gan aug-men-ta-tion (re-search-gate).  []$\T1/
+cmtt/m/n/12 https : / / www . researchgate .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
+\T1/cmtt/m/n/12 net / publication / 358845746 _ Survey _ of _ Image _ Augmentat
+ion _ Based _ on _
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 309--313
+[]\T1/ptm/m/n/12 (+20) Gans for med-i-cal syn-the-sis (preprints.org).  []$\T1/
+cmtt/m/n/12 https : / / www . preprints . org /
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 315--320
+[]\T1/ptm/m/n/12 (+20) Gan use in med-i-cal field (medium).  []$\T1/cmtt/m/n/12
+ https : / / medium . com / @aysenceliktas /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--338
+\T1/cmtt/m/n/12 %2011 % 20NO . %208 % 202025 / Interpreting % 20Machine % 20Lea
+rning % 2022-[]49 . pdf$[]\T1/ptm/m/n/12 (+20) ,
+ []
+
+
+
+[36]
+Underfull \hbox (badness 1655) in paragraph at lines 353--358
+\T1/cmtt/m/n/12 nowpublishers . com / article / OpenAccessDownload / SIP-[]2024
+0048$[]\T1/ptm/m/n/12 (+20) , 2024.  Ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--382
+[]\T1/ptm/m/n/12 (+20) M. T. U. Alam.  Ef-fi-cient-net vs ef-fi-cient-net+cbam:
  Attention-enhanced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--45
-\T1/lmr/m/n/12 (+20) odir-5k clas-si-fi-ca-tion.  []$\T1/lmtt/m/n/12 https : / 
+Underfull \hbox (badness 10000) in paragraph at lines 375--382
+\T1/ptm/m/n/12 (+20) odir-5k clas-si-fi-ca-tion.  []$\T1/cmtt/m/n/12 https : / 
 / www . kaggle . com / code / takrimulalam /
  []
 
-)
 
-[16
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
+[]\T1/ptm/m/n/12 (+20) Vit pa-per (google re-search).  []$\T1/cmtt/m/n/12 https
+ : / / research . google / pubs /
+ []
 
 
-] (./main.aux)
+Overfull \hbox (36.6774pt too wide) in paragraph at lines 384--389
+\T1/cmtt/m/n/12 an-[]image-[]is-[]worth-[]16x16-[]words-[]transformers-[]for-[]
+image-[]recognition-[]at-[]scale/$[]\T1/ptm/m/n/12 (-20) ,
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 391--395
+[]\T1/ptm/m/n/12 (+20) Vision trans-former (wikipedia).  []$\T1/cmtt/m/n/12 htt
+ps : / / en . wikipedia . org / wiki / Vision _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--402
+\T1/cmtt/m/n/12 papers / Hu _ Squeeze-[]and-[]Excitation _ Networks _ CVPR _ 20
+18 _ paper . pdf$[]\T1/ptm/m/n/12 (+20) , 2018.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--414
+\T1/cmtt/m/n/12 2018 / papers / Sanghyun _ Woo _ Convolutional _ Block _ Attent
+ion _ ECCV _ 2018 _
+ []
+
+
+
+[37])
+
+[38] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 787C418AB0F446B0B61D1EF1576E3600;3827.
+(rerunfilecheck)             Checksum: D96CAFF71DA8393E9FD073BB536B9905;10186.
  ) 
 Here is how much of TeX's memory you used:
- 16551 strings out of 475178
- 271991 string characters out of 5766540
- 704350 words of memory out of 5000000
- 39072 multiletter control sequences out of 15000+600000
- 616621 words of font info for 138 fonts, out of 8000000 for 9000
+ 17436 strings out of 475178
+ 287372 string characters out of 5766540
+ 722843 words of memory out of 5000000
+ 39640 multiletter control sequences out of 15000+600000
+ 620711 words of font info for 290 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,79p,1001b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.
-pfb>
-Output written on main.pdf (20 pages, 3191476 bytes).
+ 79i,12n,82p,1713b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/takrim/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symb
+ol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (45 pages, 4953501 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 33604 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1114 PDF objects out of 1200 (max. 8388607)
+ 905 compressed objects within 10 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 62023 words of extra memory for PDF output out of 74296 (max. 10000000)
 

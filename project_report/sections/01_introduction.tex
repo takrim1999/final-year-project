@@ -3,10 +3,25 @@ Retinal fundus photography provides a non\textendash invasive window into ocular
 
 Deep convolutional networks (CNNs) learn strong visual features but can struggle with class imbalance, domain variability, and subtle disease cues. Attention mechanisms explicitly reweight feature channels and spatial regions, potentially improving discrimination on small or ambiguous lesions. In this project we evaluate an EfficientNet baseline and an EfficientNet+CBAM variant on ODIR\textendash 5K, following a robust data parsing and splitting procedure, and report comprehensive metrics and plots to support a fair comparison.
 
+\section{Motivation}
+ODIR\textendash 5K reflects real\textendash world clinical variability: heterogeneous image quality, multi\textendash pathology co\textendash occurrence, and minority classes (notably Hypertension) that are easily under\textendash represented in standard splits \cite{odir5k}. A practical screening system must remain reliable under these constraints. Lightweight attention offers a promising path to improve separability of subtle biomarkers (e.g., AV nicking, drusen) without the data demands of full transformer models.
+
+\section{Objectives}
+We aim to: (i) establish a strong CNN baseline (EfficientNet); (ii) integrate CBAM attention to assess gains in accuracy and class\textendash wise recall; (iii) enforce reproducible data handling (deterministic parsing, stratified splits with all classes present); and (iv) report comprehensive metrics (macro/weighted F1, ROC\textendash AUC, PR\textendash AUC) and interpretability artifacts (Grad\textendash CAM) to support defensible conclusions.
+
 \section{Contributions}
 \begin{itemize}
   \item A practical ODIR\textendash 5K pipeline with robust parsing and Hypertension\textendash priority labeling to mitigate label sparsity in validation/test.
   \item An attention\textendash enhanced classifier (EfficientNet+CBAM) compared against a matched EfficientNet baseline under identical preprocessing, augmentation, and training schedules.
   \item Thorough evaluation artifacts (training curves, confusion matrices, ROC/PR curves, macro/weighted F1, ROC\textendash AUC and PR\textendash AUC) prepared for report integration.
 \end{itemize}
+
+\section{Challenges}
+Key challenges include: (i) severe class imbalance and rare single\textendash label Hypertension; (ii) quality degradations (illumination, blur, media opacities) that obscure biomarkers; (iii) label ambiguity from free\textendash text keywords; and (iv) limited data relative to transformer pretraining needs. Our design choices (Hypertension priority, stratified splits, class weights, mixed precision, and CBAM placement late in the network) directly target these issues.
+
+\section{Clinical Foundations and Imaging Artifacts}
+Fundus photography captures the posterior segment (retina, optic disc, macula, vessels) with high diagnostic value for ocular and systemic disease \cite{docxRef01}. Longitudinal acquisition supports disease monitoring and treatment response. Real\textendash world collections exhibit quality defects that challenge automated analysis: uneven illumination; lens dust or eyelashes producing artifacts; media opacities (e.g., cataracts) lowering contrast and sharpness; and focus errors due to motion or operator variability \cite{docxRef04,docxRef05}. These imperfections motivate robust preprocessing, augmentation, and architectures that can emphasize informative signals while down\textendash weighting nuisance factors.
+
+\section{Pathology Biomarkers in Fundus Images}
+Target classes manifest distinct visual cues: optic disc cupping and rim thinning in Glaucoma; global haze/blur in images affected by Cataracts; drusen and pigment changes in AMD; arteriolar narrowing, AV nicking, hemorrhages, cotton\textendash wool spots in Hypertensive Retinopathy; and posterior staphyloma or atrophic patches in Pathologic Myopia \cite{docxRef07,docxRef08,docxRef12,docxRef13,docxRef16,docxRef17,docxRef18}. Their diversity spans structures, textures, vascular geometry, and global image degradations, arguing for attention mechanisms that adaptively focus on relevant channels and spatial regions per case.
 

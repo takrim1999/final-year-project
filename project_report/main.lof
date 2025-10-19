@@ -1,17 +1,26 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Overview of attention mechanisms (adapted from Wikipedia \cite {wikiAttention}): queries, keys, and values produce attention weights to focus computation on salient content. We use convolutional attention (CBAM) rather than token attention (ViT) to keep the inductive biases of CNNs for fundus images.}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Self\textendash attention styles across architectures (Wikipedia \cite {wikiAttention}). Our approach augments a CNN with CBAM, which performs channel and spatial attention on feature maps instead of sequence tokens.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces CBAM concept illustration (DigitalOcean tutorial \cite {cbamDO}): channel attention (what) followed by spatial attention (where). We adopt this sequential design in our EfficientNet+CBAM model.}}{5}{figure.caption.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Scaling strategies summarized: individual width/depth/resolution scaling versus compound scaling that jointly balances all three.}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Residual vs inverted residual blocks illustrating EfficientNet’s MBConv design with depthwise separable conv and SE attention.}}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Comparative positioning of EfficientNet variants by accuracy\textendash efficiency.}}{9}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Base attention idea: an attention map refines intermediate feature maps to emphasize informative content and suppress background, improving downstream classification. Adapted for context from primers \cite {cbamMedium}.}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CBAM module: sequential channel and spatial attention with shared MLP for channel pooling (Avg/Max) and a $7\times 7$ conv for spatial pooling. See \cite {woo2018cbam,cbamMedium,cbamDO}.}}{6}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Our architecture: EfficientNet backbone with a CBAM attention block over feature maps, followed by a lightweight classification head.}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Base attention idea: an attention map refines intermediate feature maps to emphasize informative content and suppress background, improving downstream classification. Adapted for context from primers \cite {cbamMedium}.}}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces CBAM module: sequential channel and spatial attention with shared MLP for channel pooling (Avg/Max) and a $7\times 7$ conv for spatial pooling. See \cite {woo2018cbam,cbamMedium,cbamDO}.}}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Channel and spatial attention paths in CBAM (DigitalOcean \cite {cbamDO}). The channel branch uses global average and max pooling with a shared MLP; the spatial branch aggregates across channels and uses a $7\times 7$ convolution to produce a saliency mask.}}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Our architecture: EfficientNet backbone with a CBAM attention block over feature maps, followed by a lightweight classification head.}}{17}{figure.caption.19}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Training dynamics: accuracy (top) and loss (bottom) for EfficientNet baseline (left) and EfficientNet+CBAM (right).}}{11}{figure.caption.14}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces AUC metrics: ROC\textendash AUC (top) and PR\textendash AUC (bottom) for baseline (left) and CBAM (right).}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Per\textendash class ROC (top) and PR (bottom) curves for baseline (left) vs. CBAM (right).}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Confusion matrices (row\textendash normalized percentages) on the held\textendash out test set for baseline (left) and CBAM (right).}}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Per\textendash class benchmarking panel: for each class (left to right: Glaucoma, Cataract, AMD, Hypertension, Myopia), we show Input, EffNet Grad\textendash CAM, and EffNet+CBAM Grad\textendash CAM, with class probabilities.}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Per\textendash class examples with explicit class names. Each column shows, from top to bottom: Input, EffNet Grad\textendash CAM (with P), and EffNet+CBAM Grad\textendash CAM (with P).}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Training dynamics: accuracy (top) and loss (bottom) for EfficientNet baseline (left) and EfficientNet+CBAM (right).}}{24}{figure.caption.35}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces AUC metrics: ROC\textendash AUC (top) and PR\textendash AUC (bottom) for baseline (left) and CBAM (right).}}{25}{figure.caption.37}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Per\textendash class ROC (top) and PR (bottom) curves for baseline (left) vs. CBAM (right).}}{26}{figure.caption.39}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Confusion matrices (row\textendash normalized percentages) on the held\textendash out test set for baseline (left) and CBAM (right).}}{27}{figure.caption.41}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Per\textendash class benchmarking panel: for each class (left to right: Glaucoma, Cataract, AMD, Hypertension, Myopia), we show Input, EffNet Grad\textendash CAM, and EffNet+CBAM Grad\textendash CAM, with class probabilities.}}{28}{figure.caption.43}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Per\textendash class examples with explicit class names. Each column shows, from top to bottom: Input, EffNet Grad\textendash CAM (with P), and EffNet+CBAM Grad\textendash CAM (with P).}}{29}{figure.caption.45}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }

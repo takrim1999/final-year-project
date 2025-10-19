@@ -4,7 +4,8 @@
 % Encoding and language
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
+% Times text + math fallback
+\usepackage{mathptmx} % Times New Roman-like; body 12pt via class option
 \usepackage[english]{babel}
 
 % Page and typography
@@ -12,6 +13,25 @@
 \geometry{margin=1in}
 \usepackage{setspace}
 \onehalfspacing
+% Paragraph formatting: no indent, no extra spacing; keep full justification
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+% Heading sizes per requirement
+\usepackage{titlesec}
+% Number all levels for TOC (chapters, sections, subsections, subsubsections),
+% but only print numbers on sections in the body.
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+% Apply sizes to heading text; no printed numbers
+\titleformat{\chapter}[display]{\bfseries\centering\fontsize{16pt}{18pt}\selectfont}{}{0pt}{}
+\titleformat{\section}{\bfseries\fontsize{14pt}{16pt}\selectfont}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\bfseries\fontsize{14pt}{16pt}\selectfont}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\bfseries\fontsize{14pt}{16pt}\selectfont}{\thesubsubsection}{0.5em}{}
+% Remove extra vertical gaps around headings; start at normal margins
+\titlespacing*{\chapter}{0pt}{0pt}{12pt}
+\titlespacing*{\section}{0pt}{6pt}{6pt}
+\titlespacing*{\subsection}{0pt}{6pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{6pt}{6pt}
 \usepackage{microtype}
 
 % Figures, tables, colors
@@ -22,13 +42,14 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{xcolor}
+\usepackage{float} % For strict figure placement [H]
 
 % Math
 \usepackage{amsmath, amssymb, amsfonts}
 
 % Hyperlinks
 \usepackage[hidelinks]{hyperref}
-
+\hypersetup{pdftitle={EfficientNetvs.CBAM}}
 % Bibliography
 \usepackage[numbers,sort&compress]{natbib}
 
@@ -39,7 +60,7 @@
 % Title data
 \newcommand{\reporttitle}{EfficientNet vs. CBAM: Benchmarking Attention for Ocular Disease Classification}
 \newcommand{\supervisor}{Dr. Md. Matiqul Islam}
-\newcommand{\authors}{Md. Takrim\textendash Ul\textendash Alam\\ Samiul Bashir}
+\newcommand{\authors}{Md. Takrim\textendash Ul\textendash Alam (Roll: 1911177149)\\ Samiul Bashir (Roll: 2010277105)}
 \newcommand{\department}{Department of Information and Communication Engineering}
 \newcommand{\university}{University of Rajshahi}
 \newcommand{\reportdate}{\today}
@@ -64,24 +85,59 @@
   {\Large \reportdate\par}
 \end{titlepage}
 
+% Front matter
+\clearpage
 \pagenumbering{roman}
+
+% Conditionally include Acknowledgement; omit when WITHOUTACK is defined
+\ifdefined\WITHOUTACK
+% (Acknowledgement omitted in this build)
+\else
+% Acknowledgements (moved to front, single page)
+\chapter*{Acknowledgement}
+At first, we would like to thank the Almighty Allah for giving us the opportunity to complete this project work successfully.
+
+Foremost, we would like to thank our supervisor, Dr. Md. Matiqul Islam, Professor, Department of Information and Communication Engineering, University of Rajshahi, who continuously inspired and guided us during our project. We will forever be indebted to him for providing all the necessary help throughout the journey. He has not only supervised us but also provided advice, guidance, constant encouragement, and kind assistance. The thoughts he offered have enriched our project, without which this work would not have taken its present form.
+
+Our parents have put us ahead of themselves. Because of their hard work and dedication, we have had opportunities beyond our wildest dreams. Our heartfelt thanks to them for giving us all we ever needed to be successful students and individuals.
+
+Finally, we extend our gratitude to all the authors and researchers whose previous work on attention mechanisms, ocular disease analysis, and deep learning pipelines formed the foundation for this benchmarking between EfficientNet and EfficientNet+CBAM.
+\fi
+
+\clearpage
+% Abstract page
+\chapter*{Abstract}
+\input{sections/abstract}
+\vspace{0.8em}
+\textbf{Keywords:} EfficientNet, CBAM, ocular disease classification, ODIR\textendash 5K, Grad\textendash CAM, ROC\textendash AUC, PR\textendash AUC
+
+\clearpage
+% Front-matter order: TOC first, then LoF, then LoT
+% Adjust TOC starting page based on whether Acknowledgement is included
+\ifdefined\WITHOUTACK
+\setcounter{page}{4} % roman iv when Acknowledgement is omitted
+\else
+\setcounter{page}{5} % roman v when Acknowledgement is present
+\fi
 \tableofcontents
+\clearpage
 \listoffigures
+\clearpage
 \listoftables
 \clearpage
 
+% Main matter
 \pagenumbering{arabic}
-
-% Abstract
-\input{sections/abstract}
 
 % NOTE: The main topic names below should be aligned to the prior year's Table of Contents.
 % Replace the section headings if your department requires exact titles.
 
-% 1. Introduction
+% 1. Introduction (chapters start at normal margins, no extra vertical gaps)
 \input{sections/01_introduction}
 % 2. Related Work
 \input{sections/02_related_work}
+% 2b. Expanded Literature Background
+\input{sections/02b_literature_expansion}
 % 3. Dataset
 \input{sections/03_dataset}
 % 4. Methodology
@@ -93,8 +149,11 @@
 % 7. Conclusion and Future Work
 \input{sections/07_conclusion}
 
-% Acknowledgements (optional)
-\input{sections/acknowledgements}
+% Acknowledgements (moved to front matter)
+% \input{sections/acknowledgements}
+
+% Appendix
+\input{sections/appendix}
 
 % References
 \clearpage
